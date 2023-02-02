@@ -1,0 +1,2002 @@
+Script started on 2023-02-02 09:15:46+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ touch 1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cat 1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ git cñp[K[Klone ^V[K[K ^V^?[K[K[7mhttps://github.com/MelisaBelJ/multiprocessing_prpa22[27m[7m2[27m[7m3[27m[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[Chttps://github.com/MelisaBelJ/multiprocessing_prpa2223
+[?2004lClonando en 'multiprocessing_prpa2223'...
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  16% (1/6)Recibiendo objetos:  33% (2/6)Recibiendo objetos:  50% (3/6)Recibiendo objetos:  66% (4/6)Recibiendo objetos:  83% (5/6)Recibiendo objetos: 100% (6/6)Recibiendo objetos: 100% (6/6), listo.
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ ls
+[?2004l1_procesos.py             os                             Untitled3.ipynb
+[0m[01;34mDescargas[0m                 [01;34mPlantillas[0m                     Untitled4.ipynb
+[01;34mDocumentos[0m                [01;34mPúblico[0m                        Untitled5.ipynb
+[01;34mEscritorio[0m                [40;31;01mpyspark[0m                        Untitled.ipynb
+[01;34mImágenes[0m                  [01;34msnap[0m                           [01;34mvenv[0m
+multiprocesing.txt        [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  [01;34mVídeos[0m
+[01;34mmultiprocessing_prpa2223[0m  Untitled1.ipynb
+[01;34mMúsica[0m                    Untitled2.ipynb
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cs muli[Ktiprocesing[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd multiprocessing_prpa2223/
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ ls
+[?2004l0_procesos.py  README.md
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ o[Ktouch [7m1_procesos.py[27m1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ cat[7m1_procesos.py[27m1_procesos.py  [1@ [1P[C[1@ 
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ ^V[K[7mgedit[27mgedit 1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -,[Km ""A"d"d"e"d" "1"_"p"r"o"c"e"s"o"s"."p"y"
+[?2004lIdentidad del autor desconocido
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula440.(none)')
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git config --global user.name ""M"e"l"i"s" [A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca"B"e"l"J"
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git config --global user.name "MelisaBelJ"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[2Pmmit -m "Added 1_procesos.py"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lIdentidad del autor desconocido
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula440.(none)')
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Added 1_procesos.py"nfig --global user.name "MelisaBelJ"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[2Pmmit -m "Added 1_procesos.py"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "MelisaBelJ"[1PJ"[1PJ"[1PJ"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CJ"[K[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca"
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git config --global user.name "Melisa"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[K[1P"[1P"[1P"[1P"[1P"e"m"a"i"l" "m"e"l"i"s" [A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca"b"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[C"m"e"l"i" [A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs"a"b"e"@"u"c"m"."e"s"
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git config --global user.email "melisabe@ucm.es"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "Melisa"[K[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[2Pmmit -m "Added 1_procesos.py"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[main 8f41967] Added 1_procesos.py
+ 1 file changed, 20 insertions(+)
+ create mode 100644 1_procesos.py
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git push
+[?2004lUsername for 'https://github.com': MelisaBelJ
+Password for 'https://MelisaBelJ@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/MelisaBelJ/multiprocessing_prpa2223/'
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git push
+[?2004lUsername for 'https://github.com': ^[[A^[[A        MelisaBelj J
+Password for 'https://MelisaBelJ@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Autenticación falló para 'https://github.com/MelisaBelJ/multiprocessing_prpa2223/'
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git clone ^[[200~git@github.com:MelisaBelJ/multiprocessing_prpa2223.git~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K [7mgit@github.com:MelisaBelJ/m[27m[7mu[27m[7mltiprocessing_prpa2223.git[27m[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[C[C[C[Cgit@github.com:MelisaBelJ/multiprocessing_prpa2223.git
+[?2004lClonando en 'multiprocessing_prpa2223'...
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate de que tengas los permisos de acceso correctos
+y que el repositorio exista.
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ cd .
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ cd ..
+[?2004l[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cd ..[Kgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git
+[?2004lfatal: la ruta de destino 'multiprocessing_prpa2223' ya existe y no es un directorio vacío.
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ rm -r multiprocessing_prpa2223
+[?2004lrm: ¿borrar el fichero regular 'multiprocessing_prpa2223/.git/objects/pack/pack-0481da575e9b2c7abe42b4d10125aba5b3cfe964.idx'  protegido contra escritura? (s/n) s
+rm: ¿borrar el fichero regular 'multiprocessing_prpa2223/.git/objects/pack/pack-0481da575e9b2c7abe42b4d10125aba5b3cfe964.pack'  protegido contra escritura? (s/n) s
+rm: ¿borrar el fichero regular 'multiprocessing_prpa2223/.git/objects/8f/419675a0cd4087d3816fdf5680ae33ed7e4ad3'  protegido contra escritura? (s/n) s
+rm: ¿borrar el fichero regular 'multiprocessing_prpa2223/.git/objects/c3/9ccf0f9e8ec76bd04061a3162ed0e15b76b605'  protegido contra escritura? (s/n) s
+rm: ¿borrar el fichero regular 'multiprocessing_prpa2223/.git/objects/ee/9428798d6258a012c38d5c579f58c7f48dcf3d'  protegido contra escritura? (s/n) s
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ rm -r multiprocessing_prpa2223[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git
+[?2004lClonando en 'multiprocessing_prpa2223'...
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+sign_and_send_pubkey: signing failed for RSA "/home/alumno/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate de que tengas los permisos de acceso correctos
+y que el repositorio exista.
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ git clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git
+[?2004lClonando en 'multiprocessing_prpa2223'...
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yesa 
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+Recibiendo objetos:  16% (1/6)Recibiendo objetos:  33% (2/6)Recibiendo objetos:  50% (3/6)Recibiendo objetos:  66% (4/6)Recibiendo objetos:  83% (5/6)Recibiendo objetos: 100% (6/6)Recibiendo objetos: 100% (6/6), listo.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[K
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ git clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [32Prm -r multiprocessing_prpa2223
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.email "melisabe@ucm.es"[10Pname "Melisa"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pmmit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "MelisaBelJ"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pmmit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Padd 1_procesos.py[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat 1_procesos.py  touch 1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ touch 1_procesos.pygit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [32Prm -r multiprocessing_prpa2223
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.email "melisabe@ucm.es"[10Pname "Melisa"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pmmit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "MelisaBelJ"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pmmit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Padd 1_procesos.py[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat 1_procesos.py  gedit 1_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ gedit 1_procesos.pytouch[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [32Prm -r multiprocessing_prpa2223
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[Kcommit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.email "melisabe@ucm.es"[10Pname "Melisa"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pmmit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "MelisaBelJ"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pmmit -m "Added 1_procesos.py"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Padd 1_procesos.py
+[?2004lfatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ mv 1_procesos.py multiprocessing_prpa2223/proces[K[K[K[K[K[K1_r[Kprocesos.py
+[?2004l[?2004h]0;alumno@aula440: ~[01;32malumno@aula440[00m:[01;34m~[00m$ cd multiprocessing_prpa2223/
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ ls
+[?2004l0_procesos.py  1_procesos.py  README.md
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ lscd multiprocessing_prpa2223/mv 1_procesos.py multiprocessing_prpa2223/1_procesos.py[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [16Pgit add 1_procesos.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 1_procesos.pyls[Kcd multiprocessing_prpa2223/mv 1_procesos.py multiprocessing_prpa2223/1_procesos.py[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [16Pgit add 1_procesos.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [7Prm -r multiprocessing_prpa2223
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Added 1_procesos.py"nfig --global user.email "melisabe@ucm.es"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[C[C[2Pmmit -m "Added 1_procesos.py"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[main 098232f] Added 1_procesos.py
+ 1 file changed, 19 insertions(+)
+ create mode 100644 1_procesos.py
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Added 1_procesos.py"[14Padd 1_procesos.pyls[Kcd multiprocessing_prpa2223/mv 1_procesos.py multiprocessing_prpa2223/1_procesos.py[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [16Pgit add 1_procesos.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [7Prm -r multiprocessing_prpa2223
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone git@github.com:MelisaBelJ/multiprocessing_prpa2223.git[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lEnumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 543 bytes | 543.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To github.com:MelisaBelJ/multiprocessing_prpa2223.git
+   8064aa4..098232f  main -> main
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ touch [7m4_procesos.py[27m4_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ touch 4_procesos.py[11Pgit pushcommit -m "Added 1_procesos.py"[14Padd 1_procesos.pyls[Kcd multiprocessing_prpa2223/mv 1_procesos.py multiprocessing_prpa2223/1_procesos.py[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [16Pgit add 1_procesos.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P_procesos.py4_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ gedit 4_procesos.pytouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit pushcommit -m "Added 1_procesos.py"[14Padd 1_procesos.py[1P_procesos.py4_procesos.py
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 4_procesos.py[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit pushcommit -m "Added 1_procesos.py"[1P_procesos.py"4_procesos.py"
+[?2004l[main 607f085] Added 4_procesos.py
+ 1 file changed, 25 insertions(+)
+ create mode 100644 4_procesos.py
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Added 4_procesos.py"[14Padd 4_procesos.py[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit pushcommit -m "Added 1_procesos.py"push[K
+[?2004lEnumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 631 bytes | 631.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To github.com:MelisaBelJ/multiprocessing_prpa2223.git
+   098232f..607f085  main -> main
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ python3 1_procesos.py
+[?2004l  File "/home/alumno/multiprocessing_prpa2223/1_procesos.py", line 5
+    f	or i in range(3):
+    ^
+IndentationError: expected an indented block after function definition on line 4
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ gedit proces[K[K[K[K[K[Kq[K1_procesos.py 
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 1_procesos.py 
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Correctred wrong le[K[K[K[K[K[K[K[Klexical err or 1_procesos.py"
+[?2004l[main 16b24b5] Correctred lexical error 1_procesos.py
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 1_procesos.py[13Pgit push
+[?2004lEnumerando objetos: 5, listo.
+Contando objetos:  20% (1/5)Contando objetos:  40% (2/5)Contando objetos:  60% (3/5)Contando objetos:  80% (4/5)Contando objetos: 100% (5/5)Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 302 bytes | 302.00 KiB/s, listo.
+Total 3 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:MelisaBelJ/multiprocessing_prpa2223.git
+   607f085..16b24b5  main -> main
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git pushcommit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 1_procesos.py
+[?2004lhola soy ana 0 vuelta 0
+hola soy ana 1 vuelta 0
+hola soy ana 2 vuelta 0
+hola soy ana 3 vuelta 0
+hola soy ana 4 vuelta 0
+hola soy ana 5 vuelta 0
+hola soy ana 6 vuelta 0
+hola soy ana 7 vuelta 0
+hola soy ana 8 vuelta 0
+fin
+hola soy ana 9 vuelta 0
+Process Process-11:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/alumno/multiprocessing_prpa2223/1_procesos.py", line 9, in g
+    rint ("adios")
+NameError: name 'rint' is not defined
+hola soy ana 4 vuelta 1
+hola soy ana 7 vuelta 1
+hola soy ana 9 vuelta 1
+hola soy ana 5 vuelta 1
+hola soy ana 0 vuelta 1
+hola soy ana 1 vuelta 1
+hola soy ana 6 vuelta 1
+hola soy ana 7 vuelta 2
+hola soy ana 8 vuelta 1
+hola soy ana 2 vuelta 1
+hola soy ana 6 vuelta 2
+hola soy ana 3 vuelta 1
+hola soy ana 2 vuelta 2
+hola soy ana 9 vuelta 2
+hola soy ana 4 vuelta 2
+hola soy ana 0 vuelta 2
+hola soy ana 1 vuelta 2
+hola soy ana 5 vuelta 2
+hola soy ana 8 vuelta 2
+hola soy ana 3 vuelta 2
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ python3 1_procesos.py[13Pgit pushcommit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ gedit 1_procesos.py python3 1_procesos.py
+[?2004lhola soy ana 0 vuelta 0
+hola soy ana 1 vuelta 0
+hola soy ana 2 vuelta 0
+hola soy ana 3 vuelta 0
+hola soy ana 4 vuelta 0
+hola soy ana 5 vuelta 0
+hola soy ana 6 vuelta 0
+hola soy ana 7 vuelta 0
+hola soy ana 8 vuelta 0
+fin
+hola soy ana 9 vuelta 0
+adios
+hola soy ana 6 vuelta 1
+hola soy ana 3 vuelta 1
+hola soy ana 8 vuelta 1
+hola soy ana 1 vuelta 1
+hola soy ana 6 vuelta 2
+hola soy ana 3 vuelta 2
+hola soy ana 4 vuelta 1
+hola soy ana 2 vuelta 1
+hola soy ana 5 vuelta 1
+hola soy ana 7 vuelta 1
+hola soy ana 0 vuelta 1
+hola soy ana 5 vuelta 2
+hola soy ana 8 vuelta 2
+hola soy ana 9 vuelta 1
+hola soy ana 1 vuelta 2
+hola soy ana 4 vuelta 2
+hola soy ana 7 vuelta 2
+hola soy ana 0 vuelta 2
+hola soy ana 2 vuelta 2
+hola soy ana 9 vuelta 2
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ python3 1_procesos.py[1Pgedit 1_procesos.py python3 1_procesos.py[13Pgit pushcommit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 1_procesos.py [1Ppython3 1_procesos.py[1Pgedit 1_procesos.py python3 1_procesos.py[13Pgit pushcommit -m "Correctred lexical error 1_procesos.py"
+[?2004l[main c3f1ae3] Correctred lexical error 1_procesos.py
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppython3 1_procesos.py[1Pgedit 1_procesos.py python3 1_procesos.py[13Pgit push
+[?2004lEnumerando objetos: 5, listo.
+Contando objetos:  20% (1/5)Contando objetos:  40% (2/5)Contando objetos:  60% (3/5)Contando objetos:  80% (4/5)Contando objetos: 100% (5/5)Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 302 bytes | 302.00 KiB/s, listo.
+Total 3 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:MelisaBelJ/multiprocessing_prpa2223.git
+   16b24b5..c3f1ae3  main -> main
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git pushcommit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppython3 1_procesos.py[1Pgedit 1_procesos.py python3 1_procesos.py41_procesos.py[1P_procesos.py
+[?2004l  File "/home/alumno/multiprocessing_prpa2223/4_procesos.py", line 13
+    c = Value(’i’, 0)
+              ^
+SyntaxError: invalid character '’' (U+2019)
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ get[Kdit 4_procesos.py 
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ gedit 4_procesos.py python3 4_procesos.py
+[?2004lValor inicial del contador 0
+hola soy 10302, vuelta: 0, contador: 1
+hola soy 10302, vuelta: 1, contador: 2
+hola soy 10302, vuelta: 2, contador: 3
+hola soy 10302, vuelta: 3, contador: 4
+hola soy 10302, vuelta: 4, contador: 5
+hola soy 10302, vuelta: 5, contador: 6
+hola soy 10302, vuelta: 6, contador: 7
+hola soy 10302, vuelta: 7, contador: 8
+hola soy 10302, vuelta: 8, contador: 9
+hola soy 10302, vuelta: 9, contador: 10
+hola soy 10302, vuelta: 10, contador: 11
+hola soy 10302, vuelta: 11, contador: 12
+hola soy 10302, vuelta: 12, contador: 13
+hola soy 10302, vuelta: 13, contador: 14
+hola soy 10302, vuelta: 14, contador: 15
+hola soy 10302, vuelta: 15, contador: 16
+hola soy 10302, vuelta: 16, contador: 17
+hola soy 10302, vuelta: 17, contador: 18
+hola soy 10302, vuelta: 18, contador: 19
+hola soy 10302, vuelta: 19, contador: 20
+hola soy 10302, vuelta: 20, contador: 21
+hola soy 10302, vuelta: 21, contador: 22
+hola soy 10302, vuelta: 22, contador: 23
+hola soy 10302, vuelta: 23, contador: 24
+hola soy 10302, vuelta: 24, contador: 25
+hola soy 10302, vuelta: 25, contador: 26
+hola soy 10302, vuelta: 26, contador: 27
+hola soy 10302, vuelta: 27, contador: 28
+hola soy 10302, vuelta: 28, contador: 29
+hola soy 10302, vuelta: 29, contador: 30
+hola soy 10302, vuelta: 30, contador: 31
+hola soy 10302, vuelta: 31, contador: 32
+hola soy 10302, vuelta: 32, contador: 33
+hola soy 10302, vuelta: 33, contador: 34
+hola soy 10302, vuelta: 34, contador: 35
+hola soy 10302, vuelta: 35, contador: 36
+hola soy 10302, vuelta: 36, contador: 37
+hola soy 10302, vuelta: 37, contador: 38
+hola soy 10302, vuelta: 38, contador: 39
+hola soy 10302, vuelta: 39, contador: 40
+hola soy 10302, vuelta: 40, contador: 41
+hola soy 10302, vuelta: 41, contador: 42
+hola soy 10302, vuelta: 42, contador: 43
+hola soy 10302, vuelta: 43, contador: 44
+hola soy 10302, vuelta: 44, contador: 45
+hola soy 10302, vuelta: 45, contador: 46
+hola soy 10302, vuelta: 46, contador: 47
+hola soy 10302, vuelta: 47, contador: 48
+hola soy 10302, vuelta: 48, contador: 49
+hola soy 10302, vuelta: 49, contador: 50
+hola soy 10302, vuelta: 50, contador: 51
+hola soy 10302, vuelta: 51, contador: 52
+hola soy 10302, vuelta: 52, contador: 53
+hola soy 10302, vuelta: 53, contador: 54
+hola soy 10302, vuelta: 54, contador: 55
+hola soy 10302, vuelta: 55, contador: 56
+hola soy 10302, vuelta: 56, contador: 57
+hola soy 10302, vuelta: 57, contador: 58
+hola soy 10302, vuelta: 58, contador: 59
+hola soy 10302, vuelta: 59, contador: 60
+hola soy 10302, vuelta: 60, contador: 61
+hola soy 10302, vuelta: 61, contador: 62
+hola soy 10302, vuelta: 62, contador: 63
+hola soy 10302, vuelta: 63, contador: 64
+hola soy 10302, vuelta: 64, contador: 65
+hola soy 10302, vuelta: 65, contador: 66
+hola soy 10302, vuelta: 66, contador: 67
+hola soy 10302, vuelta: 67, contador: 68
+hola soy 10302, vuelta: 68, contador: 69
+hola soy 10302, vuelta: 69, contador: 70
+hola soy 10302, vuelta: 70, contador: 71
+hola soy 10302, vuelta: 71, contador: 73
+hola soy 10302, vuelta: 72, contador: 74
+hola soy 10302, vuelta: 73, contador: 75
+hola soy 10302, vuelta: 74, contador: 76
+hola soy 10302, vuelta: 75, contador: 77
+hola soy 10303, vuelta: 0, contador: 74
+hola soy 10302, vuelta: 76, contador: 78
+hola soy 10302, vuelta: 77, contador: 80
+hola soy 10303, vuelta: 1, contador: 80
+hola soy 10302, vuelta: 78, contador: 81
+hola soy 10303, vuelta: 2, contador: 83
+hola soy 10302, vuelta: 79, contador: 83
+hola soy 10302, vuelta: 80, contador: 85
+hola soy 10302, vuelta: 81, contador: 86
+hola soy 10302, vuelta: 82, contador: 87
+hola soy 10302, vuelta: 83, contador: 88
+hola soy 10302, vuelta: 84, contador: 89
+hola soy 10302, vuelta: 85, contador: 90
+hola soy 10302, vuelta: 86, contador: 91
+hola soy 10302, vuelta: 87, contador: 92
+hola soy 10303, vuelta: 3, contador: 92
+hola soy 10302, vuelta: 88, contador: 93
+hola soy 10302, vuelta: 89, contador: 94
+hola soy 10303, vuelta: 4, contador: 94
+hola soy 10302, vuelta: 90, contador: 95
+hola soy 10303, vuelta: 5, contador: 96
+hola soy 10302, vuelta: 91, contador: 97
+hola soy 10303, vuelta: 6, contador: 98
+hola soy 10302, vuelta: 92, contador: 99
+hola soy 10303, vuelta: 7, contador: 100
+hola soy 10302, vuelta: 93, contador: 101
+hola soy 10303, vuelta: 8, contador: 102
+hola soy 10302, vuelta: 94, contador: 103
+hola soy 10303, vuelta: 9, contador: 104
+hola soy 10302, vuelta: 95, contador: 105
+hola soy 10303, vuelta: 10, contador: 106
+hola soy 10302, vuelta: 96, contador: 107
+hola soy 10303, vuelta: 11, contador: 108
+hola soy 10302, vuelta: 97, contador: 109
+hola soy 10303, vuelta: 12, contador: 110
+hola soy 10302, vuelta: 98, contador: 111
+hola soy 10303, vuelta: 13, contador: 112
+hola soy 10302, vuelta: 99, contador: 113
+hola soy 10303, vuelta: 14, contador: 114
+hola soy 10303, vuelta: 15, contador: 115
+hola soy 10303, vuelta: 16, contador: 116
+hola soy 10303, vuelta: 17, contador: 117
+hola soy 10303, vuelta: 18, contador: 118
+hola soy 10303, vuelta: 19, contador: 119
+hola soy 10303, vuelta: 20, contador: 120
+hola soy 10303, vuelta: 21, contador: 121
+hola soy 10303, vuelta: 22, contador: 122
+hola soy 10303, vuelta: 23, contador: 123
+hola soy 10303, vuelta: 24, contador: 124
+hola soy 10303, vuelta: 25, contador: 125
+hola soy 10303, vuelta: 26, contador: 126
+hola soy 10303, vuelta: 27, contador: 127
+hola soy 10303, vuelta: 28, contador: 128
+hola soy 10303, vuelta: 29, contador: 129
+hola soy 10303, vuelta: 30, contador: 130
+hola soy 10303, vuelta: 31, contador: 131
+hola soy 10303, vuelta: 32, contador: 132
+hola soy 10303, vuelta: 33, contador: 133
+hola soy 10303, vuelta: 34, contador: 134
+hola soy 10303, vuelta: 35, contador: 135
+hola soy 10303, vuelta: 36, contador: 136
+hola soy 10303, vuelta: 37, contador: 137
+hola soy 10303, vuelta: 38, contador: 138
+hola soy 10303, vuelta: 39, contador: 139
+hola soy 10303, vuelta: 40, contador: 140
+hola soy 10303, vuelta: 41, contador: 141
+hola soy 10303, vuelta: 42, contador: 142
+hola soy 10303, vuelta: 43, contador: 143
+hola soy 10303, vuelta: 44, contador: 144
+hola soy 10303, vuelta: 45, contador: 145
+hola soy 10303, vuelta: 46, contador: 146
+hola soy 10303, vuelta: 47, contador: 147
+hola soy 10303, vuelta: 48, contador: 148
+hola soy 10303, vuelta: 49, contador: 149
+hola soy 10303, vuelta: 50, contador: 150
+hola soy 10303, vuelta: 51, contador: 151
+hola soy 10303, vuelta: 52, contador: 152
+hola soy 10303, vuelta: 53, contador: 153
+hola soy 10303, vuelta: 54, contador: 154
+hola soy 10303, vuelta: 55, contador: 155
+hola soy 10303, vuelta: 56, contador: 156
+hola soy 10303, vuelta: 57, contador: 157
+hola soy 10303, vuelta: 58, contador: 158
+hola soy 10303, vuelta: 59, contador: 159
+hola soy 10303, vuelta: 60, contador: 160
+hola soy 10303, vuelta: 61, contador: 161
+hola soy 10303, vuelta: 62, contador: 162
+hola soy 10303, vuelta: 63, contador: 163
+hola soy 10303, vuelta: 64, contador: 165
+hola soy 10303, vuelta: 65, contador: 166
+hola soy 10303, vuelta: 66, contador: 167
+hola soy 10303, vuelta: 67, contador: 168
+hola soy 10303, vuelta: 68, contador: 169
+hola soy 10304, vuelta: 0, contador: 166
+hola soy 10303, vuelta: 69, contador: 170
+hola soy 10303, vuelta: 70, contador: 172
+hola soy 10304, vuelta: 1, contador: 172
+hola soy 10303, vuelta: 71, contador: 174
+hola soy 10304, vuelta: 2, contador: 174
+hola soy 10303, vuelta: 72, contador: 176
+hola soy 10304, vuelta: 3, contador: 176
+hola soy 10303, vuelta: 73, contador: 178
+hola soy 10304, vuelta: 4, contador: 178
+hola soy 10303, vuelta: 74, contador: 180
+hola soy 10304, vuelta: 5, contador: 180
+hola soy 10303, vuelta: 75, contador: 182
+hola soy 10304, vuelta: 6, contador: 182
+hola soy 10303, vuelta: 76, contador: 184
+hola soy 10304, vuelta: 7, contador: 184
+hola soy 10303, vuelta: 77, contador: 186
+hola soy 10304, vuelta: 8, contador: 186
+hola soy 10303, vuelta: 78, contador: 188
+hola soy 10304, vuelta: 9, contador: 188
+hola soy 10303, vuelta: 79, contador: 190
+hola soy 10304, vuelta: 10, contador: 190
+hola soy 10303, vuelta: 80, contador: 192
+hola soy 10304, vuelta: 11, contador: 192
+hola soy 10303, vuelta: 81, contador: 194
+hola soy 10304, vuelta: 12, contador: 194
+hola soy 10303, vuelta: 82, contador: 196
+hola soy 10304, vuelta: 13, contador: 196
+hola soy 10303, vuelta: 83, contador: 198
+hola soy 10304, vuelta: 14, contador: 198
+hola soy 10303, vuelta: 84, contador: 200
+hola soy 10304, vuelta: 15, contador: 200
+hola soy 10303, vuelta: 85, contador: 202
+hola soy 10304, vuelta: 16, contador: 202
+hola soy 10303, vuelta: 86, contador: 204
+hola soy 10304, vuelta: 17, contador: 204
+hola soy 10303, vuelta: 87, contador: 206
+hola soy 10304, vuelta: 18, contador: 206
+hola soy 10303, vuelta: 88, contador: 208
+hola soy 10304, vuelta: 19, contador: 208
+hola soy 10303, vuelta: 89, contador: 210
+hola soy 10304, vuelta: 20, contador: 210
+hola soy 10303, vuelta: 90, contador: 211
+hola soy 10304, vuelta: 21, contador: 212
+hola soy 10303, vuelta: 91, contador: 213
+hola soy 10304, vuelta: 22, contador: 215
+hola soy 10303, vuelta: 92, contador: 215
+hola soy 10304, vuelta: 23, contador: 217
+hola soy 10303, vuelta: 93, contador: 217
+hola soy 10304, vuelta: 24, contador: 219
+hola soy 10303, vuelta: 94, contador: 219
+hola soy 10304, vuelta: 25, contador: 221
+hola soy 10303, vuelta: 95, contador: 221
+hola soy 10304, vuelta: 26, contador: 223
+hola soy 10303, vuelta: 96, contador: 223
+hola soy 10304, vuelta: 27, contador: 224
+hola soy 10303, vuelta: 97, contador: 225
+hola soy 10304, vuelta: 28, contador: 227
+hola soy 10303, vuelta: 98, contador: 227
+hola soy 10304, vuelta: 29, contador: 229
+hola soy 10303, vuelta: 99, contador: 229
+hola soy 10304, vuelta: 30, contador: 230
+hola soy 10304, vuelta: 31, contador: 231
+hola soy 10304, vuelta: 32, contador: 232
+hola soy 10304, vuelta: 33, contador: 233
+hola soy 10304, vuelta: 34, contador: 234
+hola soy 10304, vuelta: 35, contador: 235
+hola soy 10304, vuelta: 36, contador: 236
+hola soy 10304, vuelta: 37, contador: 237
+hola soy 10304, vuelta: 38, contador: 238
+hola soy 10304, vuelta: 39, contador: 239
+hola soy 10304, vuelta: 40, contador: 240
+hola soy 10304, vuelta: 41, contador: 241
+hola soy 10304, vuelta: 42, contador: 242
+hola soy 10304, vuelta: 43, contador: 243
+hola soy 10304, vuelta: 44, contador: 244
+hola soy 10304, vuelta: 45, contador: 245
+hola soy 10304, vuelta: 46, contador: 246
+hola soy 10304, vuelta: 47, contador: 247
+hola soy 10304, vuelta: 48, contador: 248
+hola soy 10304, vuelta: 49, contador: 249
+hola soy 10304, vuelta: 50, contador: 250
+hola soy 10304, vuelta: 51, contador: 251
+hola soy 10304, vuelta: 52, contador: 252
+hola soy 10304, vuelta: 53, contador: 253
+hola soy 10304, vuelta: 54, contador: 254
+hola soy 10304, vuelta: 55, contador: 255
+hola soy 10304, vuelta: 56, contador: 256
+hola soy 10305, vuelta: 0, contador: 257
+hola soy 10305, vuelta: 1, contador: 258
+hola soy 10305, vuelta: 2, contador: 259
+hola soy 10305, vuelta: 3, contador: 260
+hola soy 10305, vuelta: 4, contador: 261
+hola soy 10305, vuelta: 5, contador: 262
+hola soy 10305, vuelta: 6, contador: 263
+hola soy 10305, vuelta: 7, contador: 264
+hola soy 10305, vuelta: 8, contador: 265
+hola soy 10305, vuelta: 9, contador: 266
+hola soy 10305, vuelta: 10, contador: 267
+hola soy 10305, vuelta: 11, contador: 268
+hola soy 10305, vuelta: 12, contador: 269
+hola soy 10305, vuelta: 13, contador: 270
+hola soy 10305, vuelta: 14, contador: 271
+hola soy 10305, vuelta: 15, contador: 272
+hola soy 10305, vuelta: 16, contador: 273
+hola soy 10305, vuelta: 17, contador: 274
+hola soy 10305, vuelta: 18, contador: 275
+hola soy 10305, vuelta: 19, contador: 276
+hola soy 10305, vuelta: 20, contador: 277
+hola soy 10305, vuelta: 21, contador: 278
+hola soy 10305, vuelta: 22, contador: 279
+hola soy 10305, vuelta: 23, contador: 280
+hola soy 10305, vuelta: 24, contador: 281
+hola soy 10305, vuelta: 25, contador: 282
+hola soy 10305, vuelta: 26, contador: 283
+hola soy 10305, vuelta: 27, contador: 284
+hola soy 10305, vuelta: 28, contador: 285
+hola soy 10305, vuelta: 29, contador: 286
+hola soy 10305, vuelta: 30, contador: 287
+hola soy 10305, vuelta: 31, contador: 288
+hola soy 10305, vuelta: 32, contador: 289
+hola soy 10305, vuelta: 33, contador: 290
+hola soy 10305, vuelta: 34, contador: 291
+hola soy 10305, vuelta: 35, contador: 292
+hola soy 10305, vuelta: 36, contador: 293
+hola soy 10305, vuelta: 37, contador: 294
+hola soy 10305, vuelta: 38, contador: 295
+hola soy 10305, vuelta: 39, contador: 296
+hola soy 10305, vuelta: 40, contador: 297
+hola soy 10305, vuelta: 41, contador: 298
+hola soy 10305, vuelta: 42, contador: 299
+hola soy 10305, vuelta: 43, contador: 300
+hola soy 10305, vuelta: 44, contador: 301
+hola soy 10305, vuelta: 45, contador: 302
+hola soy 10305, vuelta: 46, contador: 303
+hola soy 10305, vuelta: 47, contador: 304
+hola soy 10305, vuelta: 48, contador: 305
+hola soy 10305, vuelta: 49, contador: 306
+hola soy 10305, vuelta: 50, contador: 307
+hola soy 10305, vuelta: 51, contador: 308
+hola soy 10305, vuelta: 52, contador: 309
+hola soy 10305, vuelta: 53, contador: 310
+hola soy 10305, vuelta: 54, contador: 311
+hola soy 10305, vuelta: 55, contador: 312
+hola soy 10305, vuelta: 56, contador: 313
+hola soy 10305, vuelta: 57, contador: 314
+hola soy 10305, vuelta: 58, contador: 315
+hola soy 10305, vuelta: 59, contador: 316
+hola soy 10305, vuelta: 60, contador: 317
+hola soy 10305, vuelta: 61, contador: 318
+hola soy 10305, vuelta: 62, contador: 319
+hola soy 10305, vuelta: 63, contador: 320
+hola soy 10305, vuelta: 64, contador: 321
+hola soy 10305, vuelta: 65, contador: 322
+hola soy 10305, vuelta: 66, contador: 323
+hola soy 10305, vuelta: 67, contador: 324
+hola soy 10305, vuelta: 68, contador: 325
+hola soy 10305, vuelta: 69, contador: 326
+hola soy 10305, vuelta: 70, contador: 327
+hola soy 10305, vuelta: 71, contador: 328
+hola soy 10305, vuelta: 72, contador: 329
+hola soy 10305, vuelta: 73, contador: 330
+hola soy 10305, vuelta: 74, contador: 331
+hola soy 10305, vuelta: 75, contador: 332
+hola soy 10305, vuelta: 76, contador: 333
+hola soy 10305, vuelta: 77, contador: 334
+hola soy 10305, vuelta: 78, contador: 335
+hola soy 10305, vuelta: 79, contador: 336
+hola soy 10305, vuelta: 80, contador: 337
+hola soy 10305, vuelta: 81, contador: 338
+hola soy 10305, vuelta: 82, contador: 339
+hola soy 10305, vuelta: 83, contador: 340
+hola soy 10305, vuelta: 84, contador: 341
+hola soy 10305, vuelta: 85, contador: 342
+hola soy 10305, vuelta: 86, contador: 343
+hola soy 10305, vuelta: 87, contador: 344
+hola soy 10305, vuelta: 88, contador: 345
+hola soy 10305, vuelta: 89, contador: 346
+hola soy 10305, vuelta: 90, contador: 347
+hola soy 10305, vuelta: 91, contador: 348
+hola soy 10305, vuelta: 92, contador: 349
+hola soy 10305, vuelta: 93, contador: 350
+hola soy 10305, vuelta: 94, contador: 351
+hola soy 10305, vuelta: 95, contador: 352
+hola soy 10305, vuelta: 96, contador: 353
+hola soy 10305, vuelta: 97, contador: 354
+hola soy 10305, vuelta: 98, contador: 355
+hola soy 10305, vuelta: 99, contador: 356
+hola soy 10307, vuelta: 0, contador: 357
+hola soy 10307, vuelta: 1, contador: 359
+hola soy 10307, vuelta: 2, contador: 360
+hola soy 10307, vuelta: 3, contador: 361
+hola soy 10306, vuelta: 0, contador: 359
+hola soy 10307, vuelta: 4, contador: 362
+hola soy 10306, vuelta: 1, contador: 364
+hola soy 10307, vuelta: 5, contador: 364
+hola soy 10306, vuelta: 2, contador: 366
+hola soy 10307, vuelta: 6, contador: 366
+hola soy 10306, vuelta: 3, contador: 368
+hola soy 10307, vuelta: 7, contador: 368
+hola soy 10306, vuelta: 4, contador: 370
+hola soy 10307, vuelta: 8, contador: 370
+hola soy 10306, vuelta: 5, contador: 372
+hola soy 10307, vuelta: 9, contador: 372
+hola soy 10306, vuelta: 6, contador: 374
+hola soy 10307, vuelta: 10, contador: 374
+hola soy 10306, vuelta: 7, contador: 376
+hola soy 10307, vuelta: 11, contador: 376
+hola soy 10306, vuelta: 8, contador: 377
+hola soy 10307, vuelta: 12, contador: 377
+hola soy 10306, vuelta: 9, contador: 378
+hola soy 10307, vuelta: 13, contador: 378
+hola soy 10306, vuelta: 10, contador: 380
+hola soy 10307, vuelta: 14, contador: 380
+hola soy 10306, vuelta: 11, contador: 381
+hola soy 10307, vuelta: 15, contador: 381
+hola soy 10306, vuelta: 12, contador: 383
+hola soy 10307, vuelta: 16, contador: 383
+hola soy 10306, vuelta: 13, contador: 385
+hola soy 10307, vuelta: 17, contador: 385
+hola soy 10306, vuelta: 14, contador: 386
+hola soy 10307, vuelta: 18, contador: 387
+hola soy 10306, vuelta: 15, contador: 388
+hola soy 10307, vuelta: 19, contador: 389
+hola soy 10306, vuelta: 16, contador: 391
+hola soy 10307, vuelta: 20, contador: 391
+hola soy 10306, vuelta: 17, contador: 393
+hola soy 10307, vuelta: 21, contador: 393
+hola soy 10306, vuelta: 18, contador: 394
+hola soy 10307, vuelta: 22, contador: 395
+hola soy 10306, vuelta: 19, contador: 397
+hola soy 10307, vuelta: 23, contador: 397
+hola soy 10306, vuelta: 20, contador: 399
+hola soy 10307, vuelta: 24, contador: 399
+hola soy 10306, vuelta: 21, contador: 400
+hola soy 10307, vuelta: 25, contador: 401
+hola soy 10306, vuelta: 22, contador: 403
+hola soy 10307, vuelta: 26, contador: 403
+hola soy 10306, vuelta: 23, contador: 404
+hola soy 10307, vuelta: 27, contador: 404
+hola soy 10306, vuelta: 24, contador: 405
+hola soy 10307, vuelta: 28, contador: 405
+hola soy 10306, vuelta: 25, contador: 407
+hola soy 10307, vuelta: 29, contador: 407
+hola soy 10306, vuelta: 26, contador: 409
+hola soy 10307, vuelta: 30, contador: 409
+hola soy 10306, vuelta: 27, contador: 411
+hola soy 10307, vuelta: 31, contador: 411
+hola soy 10306, vuelta: 28, contador: 413
+hola soy 10307, vuelta: 32, contador: 413
+hola soy 10306, vuelta: 29, contador: 414
+hola soy 10307, vuelta: 33, contador: 414
+hola soy 10306, vuelta: 30, contador: 416
+hola soy 10307, vuelta: 34, contador: 416
+hola soy 10306, vuelta: 31, contador: 418
+hola soy 10307, vuelta: 35, contador: 418
+hola soy 10306, vuelta: 32, contador: 420
+hola soy 10307, vuelta: 36, contador: 420
+hola soy 10306, vuelta: 33, contador: 422
+hola soy 10307, vuelta: 37, contador: 422
+hola soy 10306, vuelta: 34, contador: 424
+hola soy 10307, vuelta: 38, contador: 424
+hola soy 10306, vuelta: 35, contador: 426
+hola soy 10307, vuelta: 39, contador: 426
+hola soy 10306, vuelta: 36, contador: 428
+hola soy 10307, vuelta: 40, contador: 428
+hola soy 10306, vuelta: 37, contador: 430
+hola soy 10307, vuelta: 41, contador: 430
+hola soy 10306, vuelta: 38, contador: 432
+hola soy 10307, vuelta: 42, contador: 432
+hola soy 10306, vuelta: 39, contador: 434
+hola soy 10307, vuelta: 43, contador: 434
+hola soy 10306, vuelta: 40, contador: 436
+hola soy 10307, vuelta: 44, contador: 436
+hola soy 10306, vuelta: 41, contador: 437
+hola soy 10307, vuelta: 45, contador: 437
+hola soy 10306, vuelta: 42, contador: 439
+hola soy 10307, vuelta: 46, contador: 439
+hola soy 10306, vuelta: 43, contador: 441
+hola soy 10307, vuelta: 47, contador: 441
+hola soy 10306, vuelta: 44, contador: 443
+hola soy 10307, vuelta: 48, contador: 443
+hola soy 10306, vuelta: 45, contador: 444
+hola soy 10307, vuelta: 49, contador: 444
+hola soy 10306, vuelta: 46, contador: 446
+hola soy 10307, vuelta: 50, contador: 446
+hola soy 10306, vuelta: 47, contador: 448
+hola soy 10307, vuelta: 51, contador: 448
+hola soy 10306, vuelta: 48, contador: 449
+hola soy 10307, vuelta: 52, contador: 449
+hola soy 10306, vuelta: 49, contador: 451
+hola soy 10307, vuelta: 53, contador: 451
+hola soy 10306, vuelta: 50, contador: 453
+hola soy 10307, vuelta: 54, contador: 453
+hola soy 10306, vuelta: 51, contador: 455
+hola soy 10307, vuelta: 55, contador: 455
+hola soy 10306, vuelta: 52, contador: 456
+hola soy 10307, vuelta: 56, contador: 457
+hola soy 10306, vuelta: 53, contador: 458
+hola soy 10307, vuelta: 57, contador: 459
+hola soy 10306, vuelta: 54, contador: 461
+hola soy 10307, vuelta: 58, contador: 461
+hola soy 10306, vuelta: 55, contador: 463
+hola soy 10307, vuelta: 59, contador: 463
+hola soy 10306, vuelta: 56, contador: 465
+hola soy 10307, vuelta: 60, contador: 465
+hola soy 10306, vuelta: 57, contador: 467
+hola soy 10307, vuelta: 61, contador: 467
+hola soy 10306, vuelta: 58, contador: 468
+hola soy 10307, vuelta: 62, contador: 469
+hola soy 10306, vuelta: 59, contador: 470
+hola soy 10307, vuelta: 63, contador: 471
+hola soy 10306, vuelta: 60, contador: 472
+hola soy 10307, vuelta: 64, contador: 473
+hola soy 10306, vuelta: 61, contador: 474
+hola soy 10307, vuelta: 65, contador: 475
+hola soy 10306, vuelta: 62, contador: 476
+hola soy 10307, vuelta: 66, contador: 477
+hola soy 10306, vuelta: 63, contador: 478
+hola soy 10307, vuelta: 67, contador: 479
+hola soy 10306, vuelta: 64, contador: 480
+hola soy 10307, vuelta: 68, contador: 482
+hola soy 10306, vuelta: 65, contador: 482
+hola soy 10307, vuelta: 69, contador: 484
+hola soy 10306, vuelta: 66, contador: 484
+hola soy 10307, vuelta: 70, contador: 486
+hola soy 10306, vuelta: 67, contador: 486
+hola soy 10307, vuelta: 71, contador: 488
+hola soy 10306, vuelta: 68, contador: 488
+hola soy 10307, vuelta: 72, contador: 490
+hola soy 10306, vuelta: 69, contador: 490
+hola soy 10307, vuelta: 73, contador: 492
+hola soy 10306, vuelta: 70, contador: 492
+hola soy 10307, vuelta: 74, contador: 494
+hola soy 10306, vuelta: 71, contador: 494
+hola soy 10307, vuelta: 75, contador: 496
+hola soy 10306, vuelta: 72, contador: 496
+hola soy 10307, vuelta: 76, contador: 497
+hola soy 10306, vuelta: 73, contador: 497
+hola soy 10307, vuelta: 77, contador: 499
+hola soy 10306, vuelta: 74, contador: 499
+hola soy 10307, vuelta: 78, contador: 501
+hola soy 10306, vuelta: 75, contador: 501
+hola soy 10307, vuelta: 79, contador: 502
+hola soy 10306, vuelta: 76, contador: 503
+hola soy 10307, vuelta: 80, contador: 504
+hola soy 10306, vuelta: 77, contador: 505
+hola soy 10307, vuelta: 81, contador: 506
+hola soy 10306, vuelta: 78, contador: 507
+hola soy 10307, vuelta: 82, contador: 508
+hola soy 10306, vuelta: 79, contador: 509
+hola soy 10307, vuelta: 83, contador: 510
+hola soy 10306, vuelta: 80, contador: 511
+hola soy 10307, vuelta: 84, contador: 512
+hola soy 10306, vuelta: 81, contador: 513
+hola soy 10307, vuelta: 85, contador: 514
+hola soy 10306, vuelta: 82, contador: 515
+hola soy 10307, vuelta: 86, contador: 516
+hola soy 10306, vuelta: 83, contador: 517
+hola soy 10307, vuelta: 87, contador: 518
+hola soy 10306, vuelta: 84, contador: 519
+hola soy 10307, vuelta: 88, contador: 520
+hola soy 10306, vuelta: 85, contador: 521
+hola soy 10307, vuelta: 89, contador: 522
+hola soy 10306, vuelta: 86, contador: 523
+hola soy 10307, vuelta: 90, contador: 524
+hola soy 10306, vuelta: 87, contador: 525
+hola soy 10307, vuelta: 91, contador: 526
+hola soy 10306, vuelta: 88, contador: 528
+hola soy 10307, vuelta: 92, contador: 528
+hola soy 10306, vuelta: 89, contador: 529
+hola soy 10307, vuelta: 93, contador: 529
+hola soy 10306, vuelta: 90, contador: 531
+hola soy 10307, vuelta: 94, contador: 531
+hola soy 10306, vuelta: 91, contador: 533
+hola soy 10307, vuelta: 95, contador: 533
+hola soy 10306, vuelta: 92, contador: 534
+hola soy 10307, vuelta: 96, contador: 534
+hola soy 10306, vuelta: 93, contador: 536
+hola soy 10307, vuelta: 97, contador: 536
+hola soy 10306, vuelta: 94, contador: 538
+hola soy 10307, vuelta: 98, contador: 538
+hola soy 10306, vuelta: 95, contador: 539
+hola soy 10307, vuelta: 99, contador: 539
+hola soy 10306, vuelta: 96, contador: 540
+hola soy 10306, vuelta: 97, contador: 541
+hola soy 10306, vuelta: 98, contador: 542
+hola soy 10306, vuelta: 99, contador: 543
+hola soy 10309, vuelta: 0, contador: 544
+hola soy 10309, vuelta: 1, contador: 545
+hola soy 10309, vuelta: 2, contador: 546
+hola soy 10309, vuelta: 3, contador: 547
+hola soy 10309, vuelta: 4, contador: 548
+hola soy 10309, vuelta: 5, contador: 549
+hola soy 10309, vuelta: 6, contador: 550
+hola soy 10309, vuelta: 7, contador: 551
+hola soy 10309, vuelta: 8, contador: 552
+hola soy 10309, vuelta: 9, contador: 553
+hola soy 10309, vuelta: 10, contador: 554
+hola soy 10309, vuelta: 11, contador: 555
+hola soy 10309, vuelta: 12, contador: 556
+hola soy 10309, vuelta: 13, contador: 557
+hola soy 10309, vuelta: 14, contador: 558
+hola soy 10309, vuelta: 15, contador: 559
+hola soy 10309, vuelta: 16, contador: 560
+hola soy 10309, vuelta: 17, contador: 561
+hola soy 10309, vuelta: 18, contador: 562
+hola soy 10309, vuelta: 19, contador: 564
+hola soy 10309, vuelta: 20, contador: 565
+hola soy 10309, vuelta: 21, contador: 566
+hola soy 10309, vuelta: 22, contador: 567
+hola soy 10309, vuelta: 23, contador: 568
+hola soy 10308, vuelta: 0, contador: 565
+hola soy 10309, vuelta: 24, contador: 569
+hola soy 10309, vuelta: 25, contador: 570
+hola soy 10308, vuelta: 1, contador: 570
+hola soy 10309, vuelta: 26, contador: 571
+hola soy 10308, vuelta: 2, contador: 572
+hola soy 10309, vuelta: 27, contador: 573
+hola soy 10309, vuelta: 28, contador: 574
+hola soy 10308, vuelta: 3, contador: 574
+hola soy 10309, vuelta: 29, contador: 576
+hola soy 10308, vuelta: 4, contador: 576
+hola soy 10309, vuelta: 30, contador: 577
+hola soy 10308, vuelta: 5, contador: 577
+hola soy 10309, vuelta: 31, contador: 578
+hola soy 10308, vuelta: 6, contador: 578
+hola soy 10309, vuelta: 32, contador: 580
+hola soy 10308, vuelta: 7, contador: 580
+hola soy 10309, vuelta: 33, contador: 582
+hola soy 10308, vuelta: 8, contador: 582
+hola soy 10309, vuelta: 34, contador: 583
+hola soy 10308, vuelta: 9, contador: 583
+hola soy 10309, vuelta: 35, contador: 585
+hola soy 10308, vuelta: 10, contador: 585
+hola soy 10309, vuelta: 36, contador: 587
+hola soy 10308, vuelta: 11, contador: 587
+hola soy 10309, vuelta: 37, contador: 588
+hola soy 10308, vuelta: 12, contador: 589
+hola soy 10309, vuelta: 38, contador: 590
+hola soy 10308, vuelta: 13, contador: 591
+hola soy 10309, vuelta: 39, contador: 592
+hola soy 10308, vuelta: 14, contador: 593
+hola soy 10309, vuelta: 40, contador: 595
+hola soy 10308, vuelta: 15, contador: 595
+hola soy 10309, vuelta: 41, contador: 596
+hola soy 10308, vuelta: 16, contador: 597
+hola soy 10309, vuelta: 42, contador: 599
+hola soy 10308, vuelta: 17, contador: 600
+hola soy 10309, vuelta: 43, contador: 601
+hola soy 10304, vuelta: 57, contador: 601
+hola soy 10309, vuelta: 44, contador: 603
+hola soy 10308, vuelta: 18, contador: 603
+hola soy 10309, vuelta: 45, contador: 605
+hola soy 10308, vuelta: 19, contador: 605
+hola soy 10304, vuelta: 58, contador: 605
+hola soy 10309, vuelta: 46, contador: 607
+hola soy 10308, vuelta: 20, contador: 607
+hola soy 10304, vuelta: 59, contador: 608
+hola soy 10309, vuelta: 47, contador: 609
+hola soy 10308, vuelta: 21, contador: 610
+hola soy 10304, vuelta: 60, contador: 611
+hola soy 10309, vuelta: 48, contador: 612
+hola soy 10308, vuelta: 22, contador: 613
+hola soy 10304, vuelta: 61, contador: 615
+hola soy 10309, vuelta: 49, contador: 615
+hola soy 10308, vuelta: 23, contador: 616
+hola soy 10304, vuelta: 62, contador: 618
+hola soy 10309, vuelta: 50, contador: 618
+hola soy 10308, vuelta: 24, contador: 619
+hola soy 10304, vuelta: 63, contador: 620
+hola soy 10309, vuelta: 51, contador: 621
+hola soy 10308, vuelta: 25, contador: 622
+hola soy 10304, vuelta: 64, contador: 624
+hola soy 10309, vuelta: 52, contador: 624
+hola soy 10308, vuelta: 26, contador: 625
+hola soy 10304, vuelta: 65, contador: 627
+hola soy 10309, vuelta: 53, contador: 628
+hola soy 10308, vuelta: 27, contador: 628
+hola soy 10304, vuelta: 66, contador: 629
+hola soy 10309, vuelta: 54, contador: 631
+hola soy 10308, vuelta: 28, contador: 631
+hola soy 10304, vuelta: 67, contador: 632
+hola soy 10309, vuelta: 55, contador: 634
+hola soy 10308, vuelta: 29, contador: 634
+hola soy 10304, vuelta: 68, contador: 635
+hola soy 10309, vuelta: 56, contador: 636
+hola soy 10308, vuelta: 30, contador: 638
+hola soy 10304, vuelta: 69, contador: 638
+hola soy 10309, vuelta: 57, contador: 639
+hola soy 10308, vuelta: 31, contador: 641
+hola soy 10304, vuelta: 70, contador: 641
+hola soy 10309, vuelta: 58, contador: 642
+hola soy 10308, vuelta: 32, contador: 644
+hola soy 10304, vuelta: 71, contador: 644
+hola soy 10309, vuelta: 59, contador: 645
+hola soy 10308, vuelta: 33, contador: 647
+hola soy 10304, vuelta: 72, contador: 647
+hola soy 10309, vuelta: 60, contador: 648
+hola soy 10308, vuelta: 34, contador: 650
+hola soy 10304, vuelta: 73, contador: 650
+hola soy 10309, vuelta: 61, contador: 651
+hola soy 10308, vuelta: 35, contador: 653
+hola soy 10304, vuelta: 74, contador: 653
+hola soy 10309, vuelta: 62, contador: 654
+hola soy 10308, vuelta: 36, contador: 656
+hola soy 10304, vuelta: 75, contador: 656
+hola soy 10309, vuelta: 63, contador: 657
+hola soy 10308, vuelta: 37, contador: 658
+hola soy 10304, vuelta: 76, contador: 660
+hola soy 10309, vuelta: 64, contador: 661
+hola soy 10308, vuelta: 38, contador: 661
+hola soy 10304, vuelta: 77, contador: 663
+hola soy 10309, vuelta: 65, contador: 663
+hola soy 10308, vuelta: 39, contador: 664
+hola soy 10304, vuelta: 78, contador: 666
+hola soy 10309, vuelta: 66, contador: 666
+hola soy 10308, vuelta: 40, contador: 667
+hola soy 10304, vuelta: 79, contador: 668
+hola soy 10309, vuelta: 67, contador: 669
+hola soy 10308, vuelta: 41, contador: 669
+hola soy 10304, vuelta: 80, contador: 670
+hola soy 10309, vuelta: 68, contador: 671
+hola soy 10308, vuelta: 42, contador: 672
+hola soy 10304, vuelta: 81, contador: 673
+hola soy 10309, vuelta: 69, contador: 674
+hola soy 10308, vuelta: 43, contador: 675
+hola soy 10304, vuelta: 82, contador: 676
+hola soy 10309, vuelta: 70, contador: 677
+hola soy 10308, vuelta: 44, contador: 679
+hola soy 10304, vuelta: 83, contador: 679
+hola soy 10309, vuelta: 71, contador: 681
+hola soy 10308, vuelta: 45, contador: 681
+hola soy 10304, vuelta: 84, contador: 682
+hola soy 10309, vuelta: 72, contador: 684
+hola soy 10308, vuelta: 46, contador: 684
+hola soy 10304, vuelta: 85, contador: 685
+hola soy 10309, vuelta: 73, contador: 686
+hola soy 10308, vuelta: 47, contador: 688
+hola soy 10304, vuelta: 86, contador: 688
+hola soy 10309, vuelta: 74, contador: 689
+hola soy 10308, vuelta: 48, contador: 690
+hola soy 10304, vuelta: 87, contador: 691
+hola soy 10309, vuelta: 75, contador: 692
+hola soy 10308, vuelta: 49, contador: 693
+hola soy 10304, vuelta: 88, contador: 694
+hola soy 10309, vuelta: 76, contador: 696
+hola soy 10308, vuelta: 50, contador: 696
+hola soy 10304, vuelta: 89, contador: 697
+hola soy 10304, vuelta: 90, contador: 699
+hola soy 10308, vuelta: 51, contador: 699
+hola soy 10309, vuelta: 77, contador: 699
+hola soy 10304, vuelta: 91, contador: 700
+hola soy 10308, vuelta: 52, contador: 701
+hola soy 10309, vuelta: 78, contador: 702
+hola soy 10304, vuelta: 92, contador: 703
+hola soy 10308, vuelta: 53, contador: 705
+hola soy 10309, vuelta: 79, contador: 706
+hola soy 10304, vuelta: 93, contador: 706
+hola soy 10308, vuelta: 54, contador: 707
+hola soy 10309, vuelta: 80, contador: 708
+hola soy 10304, vuelta: 94, contador: 709
+hola soy 10308, vuelta: 55, contador: 711
+hola soy 10309, vuelta: 81, contador: 711
+hola soy 10304, vuelta: 95, contador: 712
+hola soy 10308, vuelta: 56, contador: 713
+hola soy 10309, vuelta: 82, contador: 714
+hola soy 10304, vuelta: 96, contador: 715
+hola soy 10308, vuelta: 57, contador: 716
+hola soy 10309, vuelta: 83, contador: 718
+hola soy 10304, vuelta: 97, contador: 718
+hola soy 10308, vuelta: 58, contador: 719
+hola soy 10309, vuelta: 84, contador: 720
+hola soy 10304, vuelta: 98, contador: 722
+hola soy 10308, vuelta: 59, contador: 722
+hola soy 10309, vuelta: 85, contador: 723
+hola soy 10304, vuelta: 99, contador: 725
+hola soy 10308, vuelta: 60, contador: 725
+hola soy 10309, vuelta: 86, contador: 726
+hola soy 10308, vuelta: 61, contador: 727
+hola soy 10309, vuelta: 87, contador: 728
+hola soy 10308, vuelta: 62, contador: 729
+hola soy 10309, vuelta: 88, contador: 730
+hola soy 10308, vuelta: 63, contador: 731
+hola soy 10309, vuelta: 89, contador: 732
+hola soy 10308, vuelta: 64, contador: 733
+hola soy 10309, vuelta: 90, contador: 734
+hola soy 10308, vuelta: 65, contador: 735
+hola soy 10309, vuelta: 91, contador: 736
+hola soy 10308, vuelta: 66, contador: 737
+hola soy 10309, vuelta: 92, contador: 738
+hola soy 10308, vuelta: 67, contador: 739
+hola soy 10309, vuelta: 93, contador: 740
+hola soy 10308, vuelta: 68, contador: 741
+hola soy 10309, vuelta: 94, contador: 742
+hola soy 10308, vuelta: 69, contador: 743
+hola soy 10309, vuelta: 95, contador: 744
+hola soy 10308, vuelta: 70, contador: 745
+hola soy 10309, vuelta: 96, contador: 746
+hola soy 10308, vuelta: 71, contador: 747
+hola soy 10309, vuelta: 97, contador: 748
+hola soy 10308, vuelta: 72, contador: 749
+hola soy 10309, vuelta: 98, contador: 750
+hola soy 10308, vuelta: 73, contador: 751
+hola soy 10309, vuelta: 99, contador: 752
+hola soy 10308, vuelta: 74, contador: 753
+hola soy 10308, vuelta: 75, contador: 754
+hola soy 10308, vuelta: 76, contador: 755
+hola soy 10308, vuelta: 77, contador: 756
+hola soy 10308, vuelta: 78, contador: 757
+hola soy 10308, vuelta: 79, contador: 758
+hola soy 10308, vuelta: 80, contador: 759
+hola soy 10308, vuelta: 81, contador: 760
+hola soy 10308, vuelta: 82, contador: 761
+hola soy 10308, vuelta: 83, contador: 762
+hola soy 10308, vuelta: 84, contador: 763
+hola soy 10308, vuelta: 85, contador: 764
+hola soy 10308, vuelta: 86, contador: 765
+hola soy 10308, vuelta: 87, contador: 766
+hola soy 10308, vuelta: 88, contador: 767
+hola soy 10308, vuelta: 89, contador: 768
+hola soy 10308, vuelta: 90, contador: 769
+hola soy 10308, vuelta: 91, contador: 770
+hola soy 10308, vuelta: 92, contador: 771
+hola soy 10308, vuelta: 93, contador: 772
+hola soy 10308, vuelta: 94, contador: 773
+hola soy 10308, vuelta: 95, contador: 774
+hola soy 10308, vuelta: 96, contador: 775
+hola soy 10308, vuelta: 97, contador: 776
+hola soy 10308, vuelta: 98, contador: 777
+hola soy 10308, vuelta: 99, contador: 778
+adios
+Valor final del contador 778
+fin
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ python3 4_procesos.py[1Pgedit 4_procesos.py python3 4_procesos.py[13Pgit pushcommit -m "Correctred lexical error 1_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 1_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@4
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 4_procesos.py [1Ppython3 4_procesos.py[1Pgedit 4_procesos.py python3 4_procesos.py[13Pgit pushcommit -m "Correctred lexical error 1_procesos.py"[1P_procesos.py"[C[C[C4_procesos.py"[C[C[C[C
+[?2004l[main 22ae778] Correctred lexical error 4_procesos.py
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Correctred lexical error 4_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 4_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppython3 4_procesos.py[1Pgedit 4_procesos.py python3 4_procesos.py[13Pgit push
+[?2004lEnumerando objetos: 5, listo.
+Contando objetos:  20% (1/5)Contando objetos:  40% (2/5)Contando objetos:  60% (3/5)Contando objetos:  80% (4/5)Contando objetos: 100% (5/5)Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 308 bytes | 308.00 KiB/s, listo.
+Total 3 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:MelisaBelJ/multiprocessing_prpa2223.git
+   c3f1ae3..22ae778  main -> main
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git pushcommit -m "Correctred lexical error 4_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 4_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppython3 4_procesos.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git status[2Ppush[K[Kll
+[?2004lYa está actualizado.
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ g[Kgit pull
+[?2004lremote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)[Kremote: Counting objects:  25% (2/8)[Kremote: Counting objects:  37% (3/8)[Kremote: Counting objects:  50% (4/8)[Kremote: Counting objects:  62% (5/8)[Kremote: Counting objects:  75% (6/8)[Kremote: Counting objects:  87% (7/8)[Kremote: Counting objects: 100% (8/8)[Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  20% (1/5)[Kremote: Compressing objects:  40% (2/5)[Kremote: Compressing objects:  60% (3/5)[Kremote: Compressing objects:  80% (4/5)[Kremote: Compressing objects: 100% (5/5)[Kremote: Compressing objects: 100% (5/5), done.[K
+Desempaquetando objetos:  16% (1/6)Desempaquetando objetos:  33% (2/6)Desempaquetando objetos:  50% (3/6)Desempaquetando objetos:  66% (4/6)Desempaquetando objetos:  83% (5/6)Desempaquetando objetos: 100% (6/6)Desempaquetando objetos: 100% (6/6), 1.14 KiB | 388.00 KiB/s, listo.
+remote: Total 6 (delta 1), reused 6 (delta 1), pack-reused 0[K
+Desde github.com:MelisaBelJ/multiprocessing_prpa2223
+   22ae778..bde43a0  main       -> origin/main
+Actualizando 22ae778..bde43a0
+Fast-forward
+ 2_procesos.py | 25 [32m+++++++++++++++++++++++++[m
+ 3_procesos.py | 20 [32m++++++++++++++++++++[m
+ 2 files changed, 45 insertions(+)
+ create mode 100644 2_procesos.py
+ create mode 100644 3_procesos.py
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git pullstatus[K[K[K[K[Ktatus
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git status[2Ppullstatus[2Ppushcommit -m "Correctred lexical error 4_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 4_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppython3 4_procesos.py[1Pgedit 4_procesos.py python3 4_procesos.py[1P_procesos.py2_procesos.py
+[?2004lhola soy ana_0, 10427, True, vuelta 0
+hola soy ana_1, 10428, True, vuelta 0
+fin
+hola soy ana_2, 10429, True, vuelta 0
+adios
+hola soy ana_1, 10428, True, vuelta 1
+hola soy ana_1, 10428, True, vuelta 2
+hola soy ana_1, 10428, True, vuelta 3
+hola soy ana_1, 10428, True, vuelta 4
+hola soy ana_2, 10429, True, vuelta 1
+hola soy ana_0, 10427, True, vuelta 1
+hola soy ana_2, 10429, True, vuelta 2
+hola soy ana_2, 10429, True, vuelta 3
+hola soy ana_0, 10427, True, vuelta 2
+hola soy ana_2, 10429, True, vuelta 4
+hola soy ana_0, 10427, True, vuelta 3
+hola soy ana_0, 10427, True, vuelta 4
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ python3 2_procesos.py[1P_procesos.py3_procesos.py
+[?2004l  File "/home/alumno/multiprocessing_prpa2223/3_procesos.py", line 15
+    c = Value(’i’, 0)
+              ^
+SyntaxError: invalid character '’' (U+2019)
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ gedit 3_procesos.py 
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ gedit 3_procesos.py python3 3_procesos.py2_procesos.py[11Pgit status[2Ppullstatus[2Ppushcommit -m "Correctred lexical error 4_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 4_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@3
+[?2004l[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git add 3_procesos.py [2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 3_procesos.py2_procesos.py[11Pgit status[2Ppullstatus[2Ppushcommit -m "Correctred lexical error 4_procesos.py"[1P_procesos.py"[C[C[C3_procesos.py"[C[C[C[C
+[?2004l[main 7437bd0] Correctred lexical error 3_procesos.py
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git commit -m "Correctred lexical error 3_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 3_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 3_procesos.py2_procesos.py[11Pgit status[2Ppullstatus[2Ppush
+[?2004lEnumerando objetos: 5, listo.
+Contando objetos:  20% (1/5)Contando objetos:  40% (2/5)Contando objetos:  60% (3/5)Contando objetos:  80% (4/5)Contando objetos: 100% (5/5)Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 308 bytes | 308.00 KiB/s, listo.
+Total 3 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:MelisaBelJ/multiprocessing_prpa2223.git
+   bde43a0..7437bd0  main -> main
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ git pushcommit -m "Correctred lexical error 3_procesos.py"[A]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ [C[C[C[C[15Padd 3_procesos.py 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 3_procesos.py
+[?2004lValor inicial del contador 0
+hola soy 10498, vuelta: 0, contador: 0
+hola soy 10499, vuelta: 0, contador: 0
+hola soy 10500, vuelta: 0, contador: 0
+hola soy 10501, vuelta: 0, contador: 0
+hola soy 10502, vuelta: 0, contador: 0
+hola soy 10503, vuelta: 0, contador: 0
+hola soy 10504, vuelta: 0, contador: 0
+hola soy 10505, vuelta: 0, contador: 0
+hola soy 10498, vuelta: 1, contador: 1
+hola soy 10499, vuelta: 1, contador: 1
+hola soy 10500, vuelta: 1, contador: 1
+hola soy 10501, vuelta: 1, contador: 1
+hola soy 10502, vuelta: 1, contador: 1
+hola soy 10503, vuelta: 1, contador: 1
+hola soy 10504, vuelta: 1, contador: 1
+hola soy 10505, vuelta: 1, contador: 1
+hola soy 10498, vuelta: 2, contador: 2
+hola soy 10499, vuelta: 2, contador: 2
+hola soy 10500, vuelta: 2, contador: 2
+hola soy 10501, vuelta: 2, contador: 2
+hola soy 10502, vuelta: 2, contador: 2
+hola soy 10503, vuelta: 2, contador: 2
+hola soy 10504, vuelta: 2, contador: 2
+hola soy 10505, vuelta: 2, contador: 2
+hola soy 10498, vuelta: 3, contador: 3
+hola soy 10499, vuelta: 3, contador: 3
+hola soy 10500, vuelta: 3, contador: 3
+hola soy 10501, vuelta: 3, contador: 3
+hola soy 10502, vuelta: 3, contador: 3
+hola soy 10503, vuelta: 3, contador: 3
+hola soy 10504, vuelta: 3, contador: 3
+hola soy 10505, vuelta: 3, contador: 3
+hola soy 10498, vuelta: 4, contador: 4
+hola soy 10499, vuelta: 4, contador: 4
+hola soy 10500, vuelta: 4, contador: 4
+hola soy 10501, vuelta: 4, contador: 4
+hola soy 10502, vuelta: 4, contador: 4
+hola soy 10503, vuelta: 4, contador: 4
+hola soy 10504, vuelta: 4, contador: 4
+hola soy 10505, vuelta: 4, contador: 4
+hola soy 10498, vuelta: 5, contador: 5
+hola soy 10499, vuelta: 5, contador: 5
+hola soy 10500, vuelta: 5, contador: 5
+hola soy 10501, vuelta: 5, contador: 5
+hola soy 10502, vuelta: 5, contador: 5
+hola soy 10503, vuelta: 5, contador: 5
+hola soy 10504, vuelta: 5, contador: 5
+hola soy 10505, vuelta: 5, contador: 5
+hola soy 10498, vuelta: 6, contador: 6
+hola soy 10499, vuelta: 6, contador: 6
+hola soy 10500, vuelta: 6, contador: 6
+hola soy 10501, vuelta: 6, contador: 6
+hola soy 10502, vuelta: 6, contador: 6
+hola soy 10503, vuelta: 6, contador: 6
+hola soy 10504, vuelta: 6, contador: 6
+hola soy 10505, vuelta: 6, contador: 6
+hola soy 10498, vuelta: 7, contador: 7
+hola soy 10499, vuelta: 7, contador: 7
+hola soy 10500, vuelta: 7, contador: 7
+hola soy 10501, vuelta: 7, contador: 7
+hola soy 10502, vuelta: 7, contador: 7
+hola soy 10503, vuelta: 7, contador: 7
+hola soy 10504, vuelta: 7, contador: 7
+hola soy 10505, vuelta: 7, contador: 7
+hola soy 10498, vuelta: 8, contador: 8
+hola soy 10499, vuelta: 8, contador: 8
+hola soy 10500, vuelta: 8, contador: 8
+hola soy 10501, vuelta: 8, contador: 8
+hola soy 10502, vuelta: 8, contador: 8
+hola soy 10503, vuelta: 8, contador: 8
+hola soy 10504, vuelta: 8, contador: 8
+hola soy 10505, vuelta: 8, contador: 8
+hola soy 10498, vuelta: 9, contador: 9
+hola soy 10500, vuelta: 9, contador: 9
+hola soy 10499, vuelta: 9, contador: 9
+hola soy 10501, vuelta: 9, contador: 9
+hola soy 10502, vuelta: 9, contador: 9
+hola soy 10503, vuelta: 9, contador: 9
+hola soy 10504, vuelta: 9, contador: 9
+hola soy 10505, vuelta: 9, contador: 9
+hola soy 10500, vuelta: 10, contador: 10
+hola soy 10498, vuelta: 10, contador: 10
+hola soy 10501, vuelta: 10, contador: 10
+hola soy 10499, vuelta: 10, contador: 10
+hola soy 10502, vuelta: 10, contador: 10
+hola soy 10503, vuelta: 10, contador: 10
+hola soy 10504, vuelta: 10, contador: 10
+hola soy 10505, vuelta: 10, contador: 10
+hola soy 10499, vuelta: 11, contador: 11
+hola soy 10500, vuelta: 11, contador: 11
+hola soy 10501, vuelta: 11, contador: 11
+hola soy 10498, vuelta: 11, contador: 11
+hola soy 10502, vuelta: 11, contador: 11
+hola soy 10503, vuelta: 11, contador: 11
+hola soy 10504, vuelta: 11, contador: 11
+hola soy 10505, vuelta: 11, contador: 11
+hola soy 10499, vuelta: 12, contador: 12
+hola soy 10498, vuelta: 12, contador: 12
+hola soy 10501, vuelta: 12, contador: 12
+hola soy 10500, vuelta: 12, contador: 12
+hola soy 10502, vuelta: 12, contador: 12
+hola soy 10503, vuelta: 12, contador: 12
+hola soy 10504, vuelta: 12, contador: 12
+hola soy 10505, vuelta: 12, contador: 12
+hola soy 10499, vuelta: 13, contador: 13
+hola soy 10500, vuelta: 13, contador: 13
+hola soy 10498, vuelta: 13, contador: 13
+hola soy 10501, vuelta: 13, contador: 13
+hola soy 10502, vuelta: 13, contador: 13
+hola soy 10503, vuelta: 13, contador: 13
+hola soy 10504, vuelta: 13, contador: 13
+hola soy 10505, vuelta: 13, contador: 13
+hola soy 10500, vuelta: 14, contador: 14
+hola soy 10498, vuelta: 14, contador: 14
+hola soy 10501, vuelta: 14, contador: 14
+hola soy 10499, vuelta: 14, contador: 14
+hola soy 10502, vuelta: 14, contador: 14
+hola soy 10503, vuelta: 14, contador: 14
+hola soy 10504, vuelta: 14, contador: 14
+hola soy 10505, vuelta: 14, contador: 14
+hola soy 10502, vuelta: 15, contador: 15
+hola soy 10501, vuelta: 15, contador: 15
+hola soy 10498, vuelta: 15, contador: 15
+hola soy 10500, vuelta: 15, contador: 15
+hola soy 10499, vuelta: 15, contador: 15
+hola soy 10503, vuelta: 15, contador: 15
+hola soy 10504, vuelta: 15, contador: 15
+hola soy 10505, vuelta: 15, contador: 15
+hola soy 10501, vuelta: 16, contador: 16
+hola soy 10498, vuelta: 16, contador: 16
+hola soy 10502, vuelta: 16, contador: 16
+hola soy 10500, vuelta: 16, contador: 16
+hola soy 10499, vuelta: 16, contador: 16
+hola soy 10503, vuelta: 16, contador: 16
+hola soy 10504, vuelta: 16, contador: 16
+hola soy 10505, vuelta: 16, contador: 16
+hola soy 10499, vuelta: 17, contador: 17
+hola soy 10498, vuelta: 17, contador: 17
+hola soy 10501, vuelta: 17, contador: 17
+hola soy 10500, vuelta: 17, contador: 17
+hola soy 10502, vuelta: 17, contador: 17
+hola soy 10503, vuelta: 17, contador: 17
+hola soy 10504, vuelta: 17, contador: 17
+hola soy 10505, vuelta: 17, contador: 17
+hola soy 10499, vuelta: 18, contador: 18
+hola soy 10503, vuelta: 18, contador: 18
+hola soy 10500, vuelta: 18, contador: 18
+hola soy 10501, vuelta: 18, contador: 18
+hola soy 10498, vuelta: 18, contador: 18
+hola soy 10502, vuelta: 18, contador: 18
+hola soy 10504, vuelta: 18, contador: 18
+hola soy 10505, vuelta: 18, contador: 18
+hola soy 10499, vuelta: 19, contador: 19
+hola soy 10502, vuelta: 19, contador: 19
+hola soy 10503, vuelta: 19, contador: 19
+hola soy 10501, vuelta: 19, contador: 19
+hola soy 10500, vuelta: 19, contador: 19
+hola soy 10498, vuelta: 19, contador: 19
+hola soy 10504, vuelta: 19, contador: 19
+hola soy 10505, vuelta: 19, contador: 19
+hola soy 10499, vuelta: 20, contador: 20
+hola soy 10502, vuelta: 20, contador: 20
+hola soy 10501, vuelta: 20, contador: 20
+hola soy 10498, vuelta: 20, contador: 20
+hola soy 10503, vuelta: 20, contador: 20
+hola soy 10504, vuelta: 20, contador: 20
+hola soy 10500, vuelta: 20, contador: 20
+hola soy 10505, vuelta: 20, contador: 20
+hola soy 10499, vuelta: 21, contador: 21
+hola soy 10502, vuelta: 21, contador: 21
+hola soy 10501, vuelta: 21, contador: 21
+hola soy 10504, vuelta: 21, contador: 21
+hola soy 10498, vuelta: 21, contador: 21
+hola soy 10503, vuelta: 21, contador: 21
+hola soy 10500, vuelta: 21, contador: 21
+hola soy 10505, vuelta: 21, contador: 21
+hola soy 10499, vuelta: 22, contador: 22
+hola soy 10504, vuelta: 22, contador: 22
+hola soy 10501, vuelta: 22, contador: 22
+hola soy 10500, vuelta: 22, contador: 22
+hola soy 10502, vuelta: 22, contador: 22
+hola soy 10498, vuelta: 22, contador: 22
+hola soy 10503, vuelta: 22, contador: 22
+hola soy 10505, vuelta: 22, contador: 22
+hola soy 10504, vuelta: 23, contador: 23
+hola soy 10502, vuelta: 23, contador: 23
+hola soy 10503, vuelta: 23, contador: 23
+hola soy 10498, vuelta: 23, contador: 23
+hola soy 10499, vuelta: 23, contador: 23
+hola soy 10501, vuelta: 23, contador: 23
+hola soy 10500, vuelta: 23, contador: 23
+hola soy 10505, vuelta: 23, contador: 23
+hola soy 10504, vuelta: 24, contador: 24
+hola soy 10498, vuelta: 24, contador: 24
+hola soy 10499, vuelta: 24, contador: 24
+hola soy 10501, vuelta: 24, contador: 24
+hola soy 10505, vuelta: 24, contador: 24
+hola soy 10502, vuelta: 24, contador: 24
+hola soy 10503, vuelta: 24, contador: 24
+hola soy 10500, vuelta: 24, contador: 24
+hola soy 10498, vuelta: 25, contador: 25
+hola soy 10499, vuelta: 25, contador: 25
+hola soy 10504, vuelta: 25, contador: 25
+hola soy 10505, vuelta: 25, contador: 25
+hola soy 10500, vuelta: 25, contador: 25
+hola soy 10502, vuelta: 25, contador: 25
+hola soy 10503, vuelta: 25, contador: 25
+hola soy 10501, vuelta: 25, contador: 25
+hola soy 10502, vuelta: 26, contador: 26
+hola soy 10505, vuelta: 26, contador: 26
+hola soy 10503, vuelta: 26, contador: 26
+hola soy 10500, vuelta: 26, contador: 26
+hola soy 10501, vuelta: 26, contador: 26
+hola soy 10498, vuelta: 26, contador: 26
+hola soy 10499, vuelta: 26, contador: 26
+hola soy 10504, vuelta: 26, contador: 26
+hola soy 10501, vuelta: 27, contador: 27
+hola soy 10498, vuelta: 27, contador: 27
+hola soy 10500, vuelta: 27, contador: 27
+hola soy 10505, vuelta: 27, contador: 27
+hola soy 10502, vuelta: 27, contador: 27
+hola soy 10503, vuelta: 27, contador: 27
+hola soy 10499, vuelta: 27, contador: 27
+hola soy 10504, vuelta: 27, contador: 27
+hola soy 10501, vuelta: 28, contador: 28
+hola soy 10498, vuelta: 28, contador: 28
+hola soy 10502, vuelta: 28, contador: 28
+hola soy 10503, vuelta: 28, contador: 28
+hola soy 10505, vuelta: 28, contador: 28
+hola soy 10499, vuelta: 28, contador: 28
+hola soy 10504, vuelta: 28, contador: 28
+hola soy 10500, vuelta: 28, contador: 28
+hola soy 10498, vuelta: 29, contador: 29
+hola soy 10501, vuelta: 29, contador: 29
+hola soy 10503, vuelta: 29, contador: 29
+hola soy 10502, vuelta: 29, contador: 29
+hola soy 10505, vuelta: 29, contador: 29
+hola soy 10504, vuelta: 29, contador: 29
+hola soy 10499, vuelta: 29, contador: 29
+hola soy 10500, vuelta: 29, contador: 29
+hola soy 10498, vuelta: 30, contador: 30
+hola soy 10501, vuelta: 30, contador: 30
+hola soy 10503, vuelta: 30, contador: 30
+hola soy 10502, vuelta: 30, contador: 30
+hola soy 10505, vuelta: 30, contador: 30
+hola soy 10499, vuelta: 30, contador: 30
+hola soy 10504, vuelta: 30, contador: 30
+hola soy 10500, vuelta: 30, contador: 30
+hola soy 10498, vuelta: 31, contador: 31
+hola soy 10501, vuelta: 31, contador: 31
+hola soy 10503, vuelta: 31, contador: 31
+hola soy 10499, vuelta: 31, contador: 31
+hola soy 10502, vuelta: 31, contador: 31
+hola soy 10500, vuelta: 31, contador: 31
+hola soy 10505, vuelta: 31, contador: 31
+hola soy 10504, vuelta: 31, contador: 31
+hola soy 10498, vuelta: 32, contador: 32
+hola soy 10499, vuelta: 32, contador: 32
+hola soy 10503, vuelta: 32, contador: 32
+hola soy 10502, vuelta: 32, contador: 32
+hola soy 10501, vuelta: 32, contador: 32
+hola soy 10500, vuelta: 32, contador: 32
+hola soy 10505, vuelta: 32, contador: 32
+hola soy 10504, vuelta: 32, contador: 32
+hola soy 10499, vuelta: 33, contador: 33
+hola soy 10498, vuelta: 33, contador: 33
+hola soy 10502, vuelta: 33, contador: 33
+hola soy 10500, vuelta: 33, contador: 33
+hola soy 10505, vuelta: 33, contador: 33
+hola soy 10501, vuelta: 33, contador: 33
+hola soy 10503, vuelta: 33, contador: 33
+hola soy 10504, vuelta: 33, contador: 33
+hola soy 10498, vuelta: 34, contador: 34
+hola soy 10499, vuelta: 34, contador: 34
+hola soy 10502, vuelta: 34, contador: 34
+hola soy 10500, vuelta: 34, contador: 34
+hola soy 10501, vuelta: 34, contador: 34
+hola soy 10505, vuelta: 34, contador: 34
+hola soy 10503, vuelta: 34, contador: 34
+hola soy 10504, vuelta: 34, contador: 34
+hola soy 10501, vuelta: 35, contador: 35
+hola soy 10502, vuelta: 35, contador: 35
+hola soy 10503, vuelta: 35, contador: 35
+hola soy 10500, vuelta: 35, contador: 35
+hola soy 10498, vuelta: 35, contador: 35
+hola soy 10499, vuelta: 35, contador: 35
+hola soy 10504, vuelta: 35, contador: 35
+hola soy 10505, vuelta: 35, contador: 35
+hola soy 10501, vuelta: 36, contador: 36
+hola soy 10502, vuelta: 36, contador: 36
+hola soy 10500, vuelta: 36, contador: 36
+hola soy 10503, vuelta: 36, contador: 36
+hola soy 10505, vuelta: 36, contador: 36
+hola soy 10499, vuelta: 36, contador: 36
+hola soy 10498, vuelta: 36, contador: 36
+hola soy 10504, vuelta: 36, contador: 36
+hola soy 10500, vuelta: 37, contador: 37
+hola soy 10502, vuelta: 37, contador: 37
+hola soy 10505, vuelta: 37, contador: 37
+hola soy 10503, vuelta: 37, contador: 37
+hola soy 10499, vuelta: 37, contador: 37
+hola soy 10501, vuelta: 37, contador: 37
+hola soy 10498, vuelta: 37, contador: 37
+hola soy 10504, vuelta: 37, contador: 37
+hola soy 10500, vuelta: 38, contador: 38
+hola soy 10499, vuelta: 38, contador: 38
+hola soy 10503, vuelta: 38, contador: 38
+hola soy 10505, vuelta: 38, contador: 38
+hola soy 10504, vuelta: 38, contador: 38
+hola soy 10498, vuelta: 38, contador: 38
+hola soy 10501, vuelta: 38, contador: 38
+hola soy 10502, vuelta: 38, contador: 38
+hola soy 10500, vuelta: 39, contador: 39
+hola soy 10503, vuelta: 39, contador: 39
+hola soy 10504, vuelta: 39, contador: 39
+hola soy 10499, vuelta: 39, contador: 39
+hola soy 10505, vuelta: 39, contador: 39
+hola soy 10501, vuelta: 39, contador: 39
+hola soy 10498, vuelta: 39, contador: 39
+hola soy 10502, vuelta: 39, contador: 39
+hola soy 10500, vuelta: 40, contador: 40
+hola soy 10503, vuelta: 40, contador: 40
+hola soy 10504, vuelta: 40, contador: 40
+hola soy 10499, vuelta: 40, contador: 40
+hola soy 10505, vuelta: 40, contador: 40
+hola soy 10501, vuelta: 40, contador: 40
+hola soy 10498, vuelta: 40, contador: 40
+hola soy 10502, vuelta: 40, contador: 40
+hola soy 10500, vuelta: 41, contador: 41
+hola soy 10503, vuelta: 41, contador: 41
+hola soy 10499, vuelta: 41, contador: 41
+hola soy 10505, vuelta: 41, contador: 41
+hola soy 10504, vuelta: 41, contador: 41
+hola soy 10501, vuelta: 41, contador: 41
+hola soy 10498, vuelta: 41, contador: 41
+hola soy 10502, vuelta: 41, contador: 41
+hola soy 10500, vuelta: 42, contador: 42
+hola soy 10503, vuelta: 42, contador: 42
+hola soy 10499, vuelta: 42, contador: 42
+hola soy 10505, vuelta: 42, contador: 42
+hola soy 10501, vuelta: 42, contador: 42
+hola soy 10504, vuelta: 42, contador: 42
+hola soy 10498, vuelta: 42, contador: 42
+hola soy 10502, vuelta: 42, contador: 42
+hola soy 10500, vuelta: 43, contador: 43
+hola soy 10503, vuelta: 43, contador: 43
+hola soy 10501, vuelta: 43, contador: 43
+hola soy 10505, vuelta: 43, contador: 43
+hola soy 10504, vuelta: 43, contador: 43
+hola soy 10498, vuelta: 43, contador: 43
+hola soy 10499, vuelta: 43, contador: 43
+hola soy 10502, vuelta: 43, contador: 43
+hola soy 10500, vuelta: 44, contador: 44
+hola soy 10503, vuelta: 44, contador: 44
+hola soy 10501, vuelta: 44, contador: 44
+hola soy 10505, vuelta: 44, contador: 44
+hola soy 10504, vuelta: 44, contador: 44
+hola soy 10498, vuelta: 44, contador: 44
+hola soy 10499, vuelta: 44, contador: 44
+hola soy 10502, vuelta: 44, contador: 44
+hola soy 10503, vuelta: 45, contador: 45
+hola soy 10500, vuelta: 45, contador: 45
+hola soy 10504, vuelta: 45, contador: 45
+hola soy 10499, vuelta: 45, contador: 45
+hola soy 10501, vuelta: 45, contador: 45
+hola soy 10498, vuelta: 45, contador: 45
+hola soy 10502, vuelta: 45, contador: 45
+hola soy 10505, vuelta: 45, contador: 45
+hola soy 10503, vuelta: 46, contador: 46
+hola soy 10500, vuelta: 46, contador: 46
+hola soy 10499, vuelta: 46, contador: 46
+hola soy 10502, vuelta: 46, contador: 46
+hola soy 10498, vuelta: 46, contador: 46
+hola soy 10505, vuelta: 46, contador: 46
+hola soy 10504, vuelta: 46, contador: 46
+hola soy 10501, vuelta: 46, contador: 46
+hola soy 10503, vuelta: 47, contador: 47
+hola soy 10502, vuelta: 47, contador: 47
+hola soy 10500, vuelta: 47, contador: 47
+hola soy 10498, vuelta: 47, contador: 47
+hola soy 10499, vuelta: 47, contador: 47
+hola soy 10505, vuelta: 47, contador: 47
+hola soy 10504, vuelta: 47, contador: 47
+hola soy 10501, vuelta: 47, contador: 47
+hola soy 10502, vuelta: 48, contador: 48
+hola soy 10500, vuelta: 48, contador: 48
+hola soy 10505, vuelta: 48, contador: 48
+hola soy 10504, vuelta: 48, contador: 48
+hola soy 10501, vuelta: 48, contador: 48
+hola soy 10498, vuelta: 48, contador: 48
+hola soy 10499, vuelta: 48, contador: 48
+hola soy 10503, vuelta: 48, contador: 48
+hola soy 10504, vuelta: 49, contador: 49
+hola soy 10502, vuelta: 49, contador: 49
+hola soy 10500, vuelta: 49, contador: 49
+hola soy 10499, vuelta: 49, contador: 49
+hola soy 10501, vuelta: 49, contador: 49
+hola soy 10505, vuelta: 49, contador: 49
+hola soy 10503, vuelta: 49, contador: 49
+hola soy 10498, vuelta: 49, contador: 49
+hola soy 10504, vuelta: 50, contador: 50
+hola soy 10502, vuelta: 50, contador: 50
+hola soy 10499, vuelta: 50, contador: 50
+hola soy 10501, vuelta: 50, contador: 50
+hola soy 10505, vuelta: 50, contador: 50
+hola soy 10503, vuelta: 50, contador: 50
+hola soy 10500, vuelta: 50, contador: 50
+hola soy 10498, vuelta: 50, contador: 50
+hola soy 10504, vuelta: 51, contador: 51
+hola soy 10501, vuelta: 51, contador: 51
+hola soy 10500, vuelta: 51, contador: 51
+hola soy 10503, vuelta: 51, contador: 51
+hola soy 10502, vuelta: 51, contador: 51
+hola soy 10499, vuelta: 51, contador: 51
+hola soy 10498, vuelta: 51, contador: 51
+hola soy 10505, vuelta: 51, contador: 51
+hola soy 10501, vuelta: 52, contador: 52
+hola soy 10500, vuelta: 52, contador: 52
+hola soy 10504, vuelta: 52, contador: 52
+hola soy 10503, vuelta: 52, contador: 52
+hola soy 10498, vuelta: 52, contador: 52
+hola soy 10505, vuelta: 52, contador: 52
+hola soy 10499, vuelta: 52, contador: 52
+hola soy 10502, vuelta: 52, contador: 52
+hola soy 10504, vuelta: 53, contador: 53
+hola soy 10501, vuelta: 53, contador: 53
+hola soy 10498, vuelta: 53, contador: 53
+hola soy 10502, vuelta: 53, contador: 53
+hola soy 10503, vuelta: 53, contador: 53
+hola soy 10500, vuelta: 53, contador: 53
+hola soy 10505, vuelta: 53, contador: 53
+hola soy 10499, vuelta: 53, contador: 53
+hola soy 10501, vuelta: 54, contador: 54
+hola soy 10498, vuelta: 54, contador: 54
+hola soy 10503, vuelta: 54, contador: 54
+hola soy 10504, vuelta: 54, contador: 54
+hola soy 10500, vuelta: 54, contador: 54
+hola soy 10502, vuelta: 54, contador: 54
+hola soy 10499, vuelta: 54, contador: 54
+hola soy 10505, vuelta: 54, contador: 54
+hola soy 10498, vuelta: 55, contador: 55
+hola soy 10499, vuelta: 55, contador: 55
+hola soy 10501, vuelta: 55, contador: 55
+hola soy 10503, vuelta: 55, contador: 55
+hola soy 10502, vuelta: 55, contador: 55
+hola soy 10500, vuelta: 55, contador: 55
+hola soy 10504, vuelta: 55, contador: 55
+hola soy 10505, vuelta: 55, contador: 55
+hola soy 10498, vuelta: 56, contador: 56
+hola soy 10504, vuelta: 56, contador: 56
+hola soy 10500, vuelta: 56, contador: 56
+hola soy 10501, vuelta: 56, contador: 56
+hola soy 10502, vuelta: 56, contador: 56
+hola soy 10499, vuelta: 56, contador: 56
+hola soy 10503, vuelta: 56, contador: 56
+hola soy 10505, vuelta: 56, contador: 56
+hola soy 10498, vuelta: 57, contador: 57
+hola soy 10504, vuelta: 57, contador: 57
+hola soy 10500, vuelta: 57, contador: 57
+hola soy 10502, vuelta: 57, contador: 57
+hola soy 10499, vuelta: 57, contador: 57
+hola soy 10501, vuelta: 57, contador: 57
+hola soy 10505, vuelta: 57, contador: 57
+hola soy 10503, vuelta: 57, contador: 57
+hola soy 10498, vuelta: 58, contador: 58
+hola soy 10504, vuelta: 58, contador: 58
+hola soy 10500, vuelta: 58, contador: 58
+hola soy 10502, vuelta: 58, contador: 58
+hola soy 10499, vuelta: 58, contador: 58
+hola soy 10501, vuelta: 58, contador: 58
+hola soy 10505, vuelta: 58, contador: 58
+hola soy 10503, vuelta: 58, contador: 58
+hola soy 10502, vuelta: 59, contador: 59
+hola soy 10504, vuelta: 59, contador: 59
+hola soy 10500, vuelta: 59, contador: 59
+hola soy 10499, vuelta: 59, contador: 59
+hola soy 10498, vuelta: 59, contador: 59
+hola soy 10501, vuelta: 59, contador: 59
+hola soy 10505, vuelta: 59, contador: 59
+hola soy 10503, vuelta: 59, contador: 59
+hola soy 10498, vuelta: 60, contador: 60
+hola soy 10502, vuelta: 60, contador: 60
+hola soy 10500, vuelta: 60, contador: 60
+hola soy 10505, vuelta: 60, contador: 60
+hola soy 10499, vuelta: 60, contador: 60
+hola soy 10503, vuelta: 60, contador: 60
+hola soy 10504, vuelta: 60, contador: 60
+hola soy 10501, vuelta: 60, contador: 60
+hola soy 10500, vuelta: 61, contador: 61
+hola soy 10504, vuelta: 61, contador: 61
+hola soy 10501, vuelta: 61, contador: 61
+hola soy 10502, vuelta: 61, contador: 61
+hola soy 10499, vuelta: 61, contador: 61
+hola soy 10498, vuelta: 61, contador: 61
+hola soy 10505, vuelta: 61, contador: 61
+hola soy 10503, vuelta: 61, contador: 61
+hola soy 10504, vuelta: 62, contador: 62
+hola soy 10501, vuelta: 62, contador: 62
+hola soy 10498, vuelta: 62, contador: 62
+hola soy 10502, vuelta: 62, contador: 62
+hola soy 10500, vuelta: 62, contador: 62
+hola soy 10499, vuelta: 62, contador: 62
+hola soy 10505, vuelta: 62, contador: 62
+hola soy 10503, vuelta: 62, contador: 62
+hola soy 10501, vuelta: 63, contador: 63
+hola soy 10500, vuelta: 63, contador: 63
+hola soy 10499, vuelta: 63, contador: 63
+hola soy 10505, vuelta: 63, contador: 63
+hola soy 10498, vuelta: 63, contador: 63
+hola soy 10502, vuelta: 63, contador: 63
+hola soy 10503, vuelta: 63, contador: 63
+hola soy 10504, vuelta: 63, contador: 63
+hola soy 10501, vuelta: 64, contador: 64
+hola soy 10498, vuelta: 64, contador: 64
+hola soy 10500, vuelta: 64, contador: 64
+hola soy 10503, vuelta: 64, contador: 64
+hola soy 10499, vuelta: 64, contador: 64
+hola soy 10505, vuelta: 64, contador: 64
+hola soy 10504, vuelta: 64, contador: 64
+hola soy 10502, vuelta: 64, contador: 64
+hola soy 10498, vuelta: 65, contador: 65
+hola soy 10501, vuelta: 65, contador: 65
+hola soy 10505, vuelta: 65, contador: 65
+hola soy 10502, vuelta: 65, contador: 65
+hola soy 10500, vuelta: 65, contador: 65
+hola soy 10504, vuelta: 65, contador: 65
+hola soy 10503, vuelta: 65, contador: 65
+hola soy 10499, vuelta: 65, contador: 65
+hola soy 10504, vuelta: 66, contador: 66
+hola soy 10501, vuelta: 66, contador: 66
+hola soy 10498, vuelta: 66, contador: 66
+hola soy 10503, vuelta: 66, contador: 66
+hola soy 10500, vuelta: 66, contador: 66
+hola soy 10505, vuelta: 66, contador: 66
+hola soy 10502, vuelta: 66, contador: 66
+hola soy 10499, vuelta: 66, contador: 66
+hola soy 10504, vuelta: 67, contador: 67
+hola soy 10500, vuelta: 67, contador: 67
+hola soy 10498, vuelta: 67, contador: 67
+hola soy 10499, vuelta: 67, contador: 67
+hola soy 10501, vuelta: 67, contador: 67
+hola soy 10503, vuelta: 67, contador: 67
+hola soy 10502, vuelta: 67, contador: 67
+hola soy 10505, vuelta: 67, contador: 67
+hola soy 10500, vuelta: 68, contador: 68
+hola soy 10499, vuelta: 68, contador: 68
+hola soy 10504, vuelta: 68, contador: 68
+hola soy 10502, vuelta: 68, contador: 68
+hola soy 10503, vuelta: 68, contador: 68
+hola soy 10501, vuelta: 68, contador: 68
+hola soy 10505, vuelta: 68, contador: 68
+hola soy 10498, vuelta: 68, contador: 68
+hola soy 10500, vuelta: 69, contador: 69
+hola soy 10504, vuelta: 69, contador: 69
+hola soy 10499, vuelta: 69, contador: 69
+hola soy 10502, vuelta: 69, contador: 69
+hola soy 10505, vuelta: 69, contador: 69
+hola soy 10498, vuelta: 69, contador: 69
+hola soy 10503, vuelta: 69, contador: 69
+hola soy 10501, vuelta: 69, contador: 69
+hola soy 10500, vuelta: 70, contador: 70
+hola soy 10498, vuelta: 70, contador: 70
+hola soy 10504, vuelta: 70, contador: 70
+hola soy 10502, vuelta: 70, contador: 70
+hola soy 10501, vuelta: 70, contador: 70
+hola soy 10505, vuelta: 70, contador: 70
+hola soy 10503, vuelta: 70, contador: 70
+hola soy 10499, vuelta: 70, contador: 70
+hola soy 10500, vuelta: 71, contador: 71
+hola soy 10498, vuelta: 71, contador: 71
+hola soy 10504, vuelta: 71, contador: 71
+hola soy 10499, vuelta: 71, contador: 71
+hola soy 10501, vuelta: 71, contador: 71
+hola soy 10502, vuelta: 71, contador: 71
+hola soy 10503, vuelta: 71, contador: 71
+hola soy 10505, vuelta: 71, contador: 71
+hola soy 10500, vuelta: 72, contador: 72
+hola soy 10504, vuelta: 72, contador: 72
+hola soy 10499, vuelta: 72, contador: 72
+hola soy 10498, vuelta: 72, contador: 72
+hola soy 10502, vuelta: 72, contador: 72
+hola soy 10501, vuelta: 72, contador: 72
+hola soy 10503, vuelta: 72, contador: 72
+hola soy 10505, vuelta: 72, contador: 72
+hola soy 10500, vuelta: 73, contador: 73
+hola soy 10498, vuelta: 73, contador: 73
+hola soy 10504, vuelta: 73, contador: 73
+hola soy 10499, vuelta: 73, contador: 73
+hola soy 10505, vuelta: 73, contador: 73
+hola soy 10502, vuelta: 73, contador: 73
+hola soy 10501, vuelta: 73, contador: 73
+hola soy 10503, vuelta: 73, contador: 73
+hola soy 10505, vuelta: 74, contador: 74
+hola soy 10501, vuelta: 74, contador: 74
+hola soy 10503, vuelta: 74, contador: 74
+hola soy 10504, vuelta: 74, contador: 74
+hola soy 10499, vuelta: 74, contador: 74
+hola soy 10498, vuelta: 74, contador: 74
+hola soy 10502, vuelta: 74, contador: 74
+hola soy 10500, vuelta: 74, contador: 74
+hola soy 10504, vuelta: 75, contador: 75
+hola soy 10499, vuelta: 75, contador: 75
+hola soy 10505, vuelta: 75, contador: 75
+hola soy 10500, vuelta: 75, contador: 75
+hola soy 10502, vuelta: 75, contador: 75
+hola soy 10498, vuelta: 75, contador: 75
+hola soy 10501, vuelta: 75, contador: 75
+hola soy 10503, vuelta: 75, contador: 75
+hola soy 10502, vuelta: 76, contador: 76
+hola soy 10498, vuelta: 76, contador: 76
+hola soy 10501, vuelta: 76, contador: 76
+hola soy 10505, vuelta: 76, contador: 76
+hola soy 10503, vuelta: 76, contador: 76
+hola soy 10499, vuelta: 76, contador: 76
+hola soy 10504, vuelta: 76, contador: 76
+hola soy 10500, vuelta: 76, contador: 76
+hola soy 10499, vuelta: 77, contador: 77
+hola soy 10505, vuelta: 77, contador: 77
+hola soy 10501, vuelta: 77, contador: 77
+hola soy 10502, vuelta: 77, contador: 77
+hola soy 10503, vuelta: 77, contador: 77
+hola soy 10500, vuelta: 77, contador: 77
+hola soy 10498, vuelta: 77, contador: 77
+hola soy 10504, vuelta: 77, contador: 77
+hola soy 10501, vuelta: 78, contador: 78
+hola soy 10499, vuelta: 78, contador: 78
+hola soy 10504, vuelta: 78, contador: 78
+hola soy 10503, vuelta: 78, contador: 78
+hola soy 10502, vuelta: 78, contador: 78
+hola soy 10498, vuelta: 78, contador: 78
+hola soy 10505, vuelta: 78, contador: 78
+hola soy 10500, vuelta: 78, contador: 78
+hola soy 10501, vuelta: 79, contador: 79
+hola soy 10499, vuelta: 79, contador: 79
+hola soy 10503, vuelta: 79, contador: 79
+hola soy 10504, vuelta: 79, contador: 79
+hola soy 10500, vuelta: 79, contador: 79
+hola soy 10502, vuelta: 79, contador: 79
+hola soy 10505, vuelta: 79, contador: 79
+hola soy 10498, vuelta: 79, contador: 79
+hola soy 10501, vuelta: 80, contador: 80
+hola soy 10503, vuelta: 80, contador: 80
+hola soy 10499, vuelta: 80, contador: 80
+hola soy 10500, vuelta: 80, contador: 80
+hola soy 10502, vuelta: 80, contador: 80
+hola soy 10498, vuelta: 80, contador: 80
+hola soy 10504, vuelta: 80, contador: 80
+hola soy 10505, vuelta: 80, contador: 80
+hola soy 10501, vuelta: 81, contador: 81
+hola soy 10503, vuelta: 81, contador: 81
+hola soy 10499, vuelta: 81, contador: 81
+hola soy 10500, vuelta: 81, contador: 81
+hola soy 10504, vuelta: 81, contador: 81
+hola soy 10498, vuelta: 81, contador: 81
+hola soy 10502, vuelta: 81, contador: 81
+hola soy 10505, vuelta: 81, contador: 81
+hola soy 10501, vuelta: 82, contador: 82
+hola soy 10503, vuelta: 82, contador: 82
+hola soy 10500, vuelta: 82, contador: 82
+hola soy 10499, vuelta: 82, contador: 82
+hola soy 10498, vuelta: 82, contador: 82
+hola soy 10505, vuelta: 82, contador: 82
+hola soy 10502, vuelta: 82, contador: 82
+hola soy 10504, vuelta: 82, contador: 82
+hola soy 10501, vuelta: 83, contador: 83
+hola soy 10499, vuelta: 83, contador: 83
+hola soy 10504, vuelta: 83, contador: 83
+hola soy 10502, vuelta: 83, contador: 83
+hola soy 10498, vuelta: 83, contador: 83
+hola soy 10505, vuelta: 83, contador: 83
+hola soy 10503, vuelta: 83, contador: 83
+hola soy 10500, vuelta: 83, contador: 83
+hola soy 10504, vuelta: 84, contador: 84
+hola soy 10505, vuelta: 84, contador: 84
+hola soy 10502, vuelta: 84, contador: 84
+hola soy 10503, vuelta: 84, contador: 84
+hola soy 10498, vuelta: 84, contador: 84
+hola soy 10500, vuelta: 84, contador: 84
+hola soy 10501, vuelta: 84, contador: 84
+hola soy 10499, vuelta: 84, contador: 84
+hola soy 10504, vuelta: 85, contador: 85
+hola soy 10500, vuelta: 85, contador: 85
+hola soy 10501, vuelta: 85, contador: 85
+hola soy 10498, vuelta: 85, contador: 85
+hola soy 10503, vuelta: 85, contador: 85
+hola soy 10502, vuelta: 85, contador: 85
+hola soy 10499, vuelta: 85, contador: 85
+hola soy 10505, vuelta: 85, contador: 85
+hola soy 10498, vuelta: 86, contador: 86
+hola soy 10505, vuelta: 86, contador: 86
+hola soy 10500, vuelta: 86, contador: 86
+hola soy 10503, vuelta: 86, contador: 86
+hola soy 10502, vuelta: 86, contador: 86
+hola soy 10501, vuelta: 86, contador: 86
+hola soy 10504, vuelta: 86, contador: 86
+hola soy 10499, vuelta: 86, contador: 86
+hola soy 10503, vuelta: 87, contador: 87
+hola soy 10501, vuelta: 87, contador: 87
+hola soy 10505, vuelta: 87, contador: 87
+hola soy 10502, vuelta: 87, contador: 87
+hola soy 10504, vuelta: 87, contador: 87
+hola soy 10498, vuelta: 87, contador: 87
+hola soy 10500, vuelta: 87, contador: 87
+hola soy 10499, vuelta: 87, contador: 87
+hola soy 10503, vuelta: 88, contador: 88
+hola soy 10505, vuelta: 88, contador: 88
+hola soy 10504, vuelta: 88, contador: 88
+hola soy 10498, vuelta: 88, contador: 88
+hola soy 10501, vuelta: 88, contador: 88
+hola soy 10502, vuelta: 88, contador: 88
+hola soy 10500, vuelta: 88, contador: 88
+hola soy 10499, vuelta: 88, contador: 88
+hola soy 10503, vuelta: 89, contador: 89
+hola soy 10505, vuelta: 89, contador: 89
+hola soy 10498, vuelta: 89, contador: 89
+hola soy 10501, vuelta: 89, contador: 89
+hola soy 10504, vuelta: 89, contador: 89
+hola soy 10502, vuelta: 89, contador: 89
+hola soy 10500, vuelta: 89, contador: 89
+hola soy 10499, vuelta: 89, contador: 89
+hola soy 10503, vuelta: 90, contador: 90
+hola soy 10505, vuelta: 90, contador: 90
+hola soy 10501, vuelta: 90, contador: 90
+hola soy 10504, vuelta: 90, contador: 90
+hola soy 10498, vuelta: 90, contador: 90
+hola soy 10502, vuelta: 90, contador: 90
+hola soy 10500, vuelta: 90, contador: 90
+hola soy 10499, vuelta: 90, contador: 90
+hola soy 10505, vuelta: 91, contador: 91
+hola soy 10502, vuelta: 91, contador: 91
+hola soy 10498, vuelta: 91, contador: 91
+hola soy 10501, vuelta: 91, contador: 91
+hola soy 10503, vuelta: 91, contador: 91
+hola soy 10499, vuelta: 91, contador: 91
+hola soy 10504, vuelta: 91, contador: 91
+hola soy 10500, vuelta: 91, contador: 91
+hola soy 10498, vuelta: 92, contador: 92
+hola soy 10505, vuelta: 92, contador: 92
+hola soy 10501, vuelta: 92, contador: 92
+hola soy 10502, vuelta: 92, contador: 92
+hola soy 10503, vuelta: 92, contador: 92
+hola soy 10499, vuelta: 92, contador: 92
+hola soy 10504, vuelta: 92, contador: 92
+hola soy 10500, vuelta: 92, contador: 92
+hola soy 10498, vuelta: 93, contador: 93
+hola soy 10499, vuelta: 93, contador: 93
+hola soy 10502, vuelta: 93, contador: 93
+hola soy 10500, vuelta: 93, contador: 93
+hola soy 10505, vuelta: 93, contador: 93
+hola soy 10504, vuelta: 93, contador: 93
+hola soy 10501, vuelta: 93, contador: 93
+hola soy 10503, vuelta: 93, contador: 93
+hola soy 10501, vuelta: 94, contador: 94
+hola soy 10503, vuelta: 94, contador: 94
+hola soy 10502, vuelta: 94, contador: 94
+hola soy 10504, vuelta: 94, contador: 94
+hola soy 10498, vuelta: 94, contador: 94
+hola soy 10499, vuelta: 94, contador: 94
+hola soy 10505, vuelta: 94, contador: 94
+hola soy 10500, vuelta: 94, contador: 94
+hola soy 10501, vuelta: 95, contador: 95
+hola soy 10504, vuelta: 95, contador: 95
+hola soy 10502, vuelta: 95, contador: 95
+hola soy 10500, vuelta: 95, contador: 95
+hola soy 10499, vuelta: 95, contador: 95
+hola soy 10503, vuelta: 95, contador: 95
+hola soy 10498, vuelta: 95, contador: 95
+hola soy 10505, vuelta: 95, contador: 95
+hola soy 10501, vuelta: 96, contador: 96
+hola soy 10504, vuelta: 96, contador: 96
+hola soy 10503, vuelta: 96, contador: 96
+hola soy 10499, vuelta: 96, contador: 96
+hola soy 10500, vuelta: 96, contador: 96
+hola soy 10505, vuelta: 96, contador: 96
+hola soy 10502, vuelta: 96, contador: 96
+hola soy 10498, vuelta: 96, contador: 96
+hola soy 10501, vuelta: 97, contador: 97
+hola soy 10499, vuelta: 97, contador: 97
+hola soy 10502, vuelta: 97, contador: 97
+hola soy 10500, vuelta: 97, contador: 97
+hola soy 10505, vuelta: 97, contador: 97
+hola soy 10504, vuelta: 97, contador: 97
+hola soy 10498, vuelta: 97, contador: 97
+hola soy 10503, vuelta: 97, contador: 97
+hola soy 10501, vuelta: 98, contador: 98
+hola soy 10499, vuelta: 98, contador: 98
+hola soy 10505, vuelta: 98, contador: 98
+hola soy 10502, vuelta: 98, contador: 98
+hola soy 10500, vuelta: 98, contador: 98
+hola soy 10504, vuelta: 98, contador: 98
+hola soy 10498, vuelta: 98, contador: 98
+hola soy 10503, vuelta: 98, contador: 98
+hola soy 10505, vuelta: 99, contador: 99
+hola soy 10501, vuelta: 99, contador: 99
+hola soy 10499, vuelta: 99, contador: 99
+hola soy 10502, vuelta: 99, contador: 99
+hola soy 10500, vuelta: 99, contador: 99
+hola soy 10503, vuelta: 99, contador: 99
+hola soy 10504, vuelta: 99, contador: 99
+hola soy 10498, vuelta: 99, contador: 99
+[?2004h]0;alumno@aula440: ~/multiprocessing_prpa2223[01;32malumno@aula440[00m:[01;34m~/multiprocessing_prpa2223[00m$ python3 3_procesos.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?2004l
+exit
+
+Script done on 2023-02-02 10:29:50+01:00 [COMMAND_EXIT_CODE="0"]
