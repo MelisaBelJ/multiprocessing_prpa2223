@@ -2,11 +2,11 @@ import time
 import random
 from multiprocessing import Process
 def f(value):
-f	or i in range(3):
+	for i in range(3):
 		print (f"hola soy {value} vuelta {i}")
 		time.sleep(random.random()/3)
 def g():
-	rint ("adios")
+	print ("adios")
 if __name__ == "__main__":
 	N = 10
 	lp = []
